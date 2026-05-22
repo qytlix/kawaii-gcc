@@ -1081,6 +1081,12 @@ msgstr "要记得在用作真值的赋值语句前后加上括号，并真诚地
 msgid "too many arguments to function %qE"
 msgstr "提供给函数%qE的实参太多，检查下定义吧～"
 
+msgid "too many arguments to function %qE; expected %i, have %i"
+msgstr "函数%qE的参数太多了啦！需要%2$i个，你给了%3$i个，长点心吧喵～"
+
+msgid "too many arguments to method %qE; expected %i, have %i"
+msgstr "方法%qE的参数太多了啦！需要%2$i个，你给了%3$i个，长点心吧喵～"
+
 msgid "size of array is too large"
 msgstr "数组太大了，会撑坏内存的～"
 
@@ -1336,6 +1342,9 @@ msgstr "无效的数组赋值，对此咱表示强烈抗议喵！！！"
 
 msgid "expected %qT but argument is of type %qT"
 msgstr "需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！"
+
+msgid "expected %e but argument is of type %e"
+msgstr "需要%1$e类型啊喂，但实参的类型却是%2$e，长点心吧喂！！！"
 
 msgid "passing argument %d of %qE makes pointer from integer without a cast"
 msgstr "传递给%2$qE的第 %1$d 个参数将整数赋给指针，你个笨蛋，好歹做下类型转换啊！！！"
@@ -2804,6 +2813,26 @@ msgstr "索引 %E 指定了一个大于%qT大小的偏移量啦"
 #, gcc-internal-format
 msgid "index value is out of bound"
 msgstr "索引值越界呢"
+
+#: c-family/c-common.cc:10012
+#, gcc-internal-format
+msgid "possible fix: take the address with %qs"
+msgstr "可能的解决方案：用%qs取地址吧，笨蛋！"
+
+#: c-family/c-common.cc:10022
+#, gcc-internal-format
+msgid "possible fix: dereference with %qs"
+msgstr "可能的解决方案：用%qs解引用吧，笨蛋！"
+
+#: c-family/known-headers.cc:323
+#, gcc-internal-format
+msgid "%qs is defined in header %qs; this is probably fixable by adding %<#include %s%>"
+msgstr "%1$qs在头文件%2$qs中定义了喵～你可以试着添加%3$s来修复这个问题啦！"
+
+#: c-family/known-headers.cc:351
+#, gcc-internal-format
+msgid "%qs is defined when using option %qs; this is probably fixable by adding %qs to the command-line options"
+msgstr "%1$qs在使用%2$qs选项时定义了喵～你可以试着在命令行中添加%3$qs来修复这个问题啦！"
 
 #: c-family/c-format.cc:201
 #, gcc-internal-format
@@ -5652,10 +5681,55 @@ msgstr "传递%2$qE的第 %1$d 个参数给指针时，目标与指针符号不�
 msgid "passing argument %d of %qE from incompatible pointer type"
 msgstr "传递%2$qE的第 %1$d 个参数时在不兼容的指针类型间转换喵！笨蛋！"
 
-#: c/c-typeck.cc:9315
+#: c/c-typeck.cc:9159
+#, gcc-internal-format
+msgid "assignment to %e from pointer to %qD with incompatible type %e"
+msgstr "将%2$qD类型的%1$e赋值给...哎不对，类型%3$e不兼容喵！笨蛋！"
+
+#: c/c-typeck.cc:9165
+#, gcc-internal-format
+msgid "assignment to %e from incompatible pointer type %e"
+msgstr "将%2$e赋值给%1$e时指针类型不兼容喵～建议重开谢谢！"
+
+#: c/c-typeck.cc:9174
+#, gcc-internal-format
+msgid "initialization of %e from pointer to %qD with incompatible type %e"
+msgstr "用指向%2$qD的指针%1$e初始化时类型%3$e不兼容喵！检查一下啦～"
+
+#: c/c-typeck.cc:9180
+#, gcc-internal-format
+msgid "initialization of %e from incompatible pointer type %e"
+msgstr "用%2$e初始化%1$e时指针类型不兼容喵～再检查一下吧！"
+
+#: c/c-typeck.cc:9188
+#, gcc-internal-format
+msgid "returning pointer to %qD of type %e from a function with incompatible type %e"
+msgstr "返回%2$qD(%1$e)时函数的类型%3$e不兼容，这波操作不行喵！"
+
+#: c/c-typeck.cc:9194
+#, gcc-internal-format
+msgid "returning %e from a function with incompatible return type %e"
+msgstr "从函数返回%1$e但返回类型是%2$e，不兼容的说～笨蛋！"
+
+#: c/c-typeck.cc:9272
 #, gcc-internal-format
 msgid "passing argument %d of %qE makes integer from pointer without a cast"
 msgstr "传递%2$qE的第 %1$d 个参数时将指针赋给整数，未作类型转换啦"
+
+#: c/c-typeck.cc:9325
+#, gcc-internal-format
+msgid "assignment to %qT from %qT makes integer from pointer without a cast"
+msgstr "将%2$qT赋值给%1$qT时将指针赋给了整数，未作类型转换，笨蛋！"
+
+#: c/c-typeck.cc:9331
+#, gcc-internal-format
+msgid "initialization of %qT from %qT makes integer from pointer without a cast"
+msgstr "用%2$qT初始化%1$qT时将指针赋给了整数，未作类型转换，笨蛋！"
+
+#: c/c-typeck.cc:9335
+#, gcc-internal-format
+msgid "returning %qT from a function with return type %qT makes integer from pointer without a cast"
+msgstr "从返回类型为%2$qT的函数返回%1$qT时将指针赋给了整数，未作类型转换，笨蛋！"
 
 #: c/c-typeck.cc:9368
 #, gcc-internal-format
@@ -8450,6 +8524,11 @@ msgstr "指定%qD属性被忽略别忘了哦~"
 #, gcc-internal-format
 msgid "  %qE"
 msgstr "%qE喵~"
+
+#: cp/name-lookup.cc:7551
+#, gcc-internal-format
+msgid "%<std::%s%> is defined in header %qs; this is probably fixable by adding %<#include %s%>"
+msgstr "%1$s在头文件%2$qs中定义了喵～你可以试着添加%3$s来修复这个问题啦！"
 
 #: cp/name-lookup.cc:9549
 #, gcc-internal-format
@@ -18282,12 +18361,12 @@ msgstr "<built-in>啦"
 #. Opening quotation mark.
 #: intl.cc:62
 msgid "`"
-msgstr "‘哦"
+msgstr "‘"
 
 #. Closing quotation mark.
 #: intl.cc:65
 msgid "'"
-msgstr "’啦"
+msgstr "’"
 
 #: langhooks.cc:405
 msgid "In member function %qs"
