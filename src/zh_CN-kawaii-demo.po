@@ -1,0 +1,66 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gcc 16.1.0\n"
+"Report-Msgid-Bugs-To: https://gcc.gnu.org/bugs/\n"
+"POT-Creation-Date: 2026-03-26 15:06+0000\n"
+"PO-Revision-Date: 2023-04-13 22:07-0400\n"
+"Last-Translator: Boyuan Yang <073plan@gmail.com>\n"
+"Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 2.4.3\n"
+
+#: lto/lang.opt:94
+#, no-c-format
+msgid "Sort the symbols alphabetically."
+msgstr "按照字母顺序对符号排序嘛~"
+
+#: lto/lang.opt:98
+#, no-c-format
+msgid "Sort the symbols according to size."
+msgstr "按照大小对符号排序啦~ 笨蛋~"
+
+#: lto/lang.opt:109
+#, no-c-format
+msgid "Dump the details of LTO objects."
+msgstr "把LTO对象的详细信息都Dump出来呢~ 笨蛋，这都不懂吗？"
+
+#: config/nvptx/nvptx.opt:64
+#, no-c-format
+msgid "Alias:"
+msgstr "别以为这会简单？只是个别名而已啦~"
+
+#: config/gcn/gcn-tables.opt:25
+#, no-c-format
+msgid "GCN GPU type to use:"
+msgstr "GCN要用的GPU类型是？~"
+
+#: config/loongarch/loongarch.opt:41
+#, no-c-format
+msgid "Basic ISAs of LoongArch:"
+msgstr "LoongArch的基本ISA呢：“msgstr” 这样就能懂啦？"
+
+#: config/loongarch/loongarch.opt:55
+#, no-c-format
+msgid "FPU types of LoongArch:"
+msgstr "LoongArch的FPU类型呢？笨蛋~"
+
+#: config/darwin.opt:200
+#, no-c-format
+msgid "Abbreviation for \"-g -fno-eliminate-unused-debug-symbols\"."
+msgstr "“-g -fno-eliminate-unused-debug-symbols”的缩写哦~ 笨蛋~"
+
+#: config/darwin.opt:204
+#, no-c-format
+msgid "Abbreviation for \"-g -feliminate-unused-debug-symbols\"."
+msgstr "\"-g -feliminate-unused-debug-symbols\" 这种缩写呀，你这笨蛋就懂吗？哦？"
+
+#: config/darwin.opt:244
+#, no-c-format
+msgid "Do not add a default symbol exports to modules or dynamic libraries."
+msgstr "不要在模块或动态库中添加默认符号导出哦？笨蛋~"
