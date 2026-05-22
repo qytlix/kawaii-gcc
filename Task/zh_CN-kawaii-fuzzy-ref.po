@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gcc 16.1.0\n"
+"Language: zh_CN\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+
+# ============================================================
+# REFERENCE: 32 kawaii entries that were fuzzy-matched
+# to different msgids during GCC 9→16 migration.
+# These need NEW translations for the current msgid.
+# Original translations shown as reference for kawaii style.
+# ============================================================
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: -bundle not allowed with -shared
+# Original msgstr: -bundle 不……不能与 -dynamiclib 在一起喵！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: When sanitizing using MTE instructions, include builtin functions.
+# Original msgstr: 内建函数实参是无效的喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Enable stack scrubbing for all viable functions.
+# Original msgstr: 内建函数实参是无效的喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Removed in GCC 15.  This switch has no effect.
+# Original msgstr: 已经在GCC10就被丢弃的啦，是不是才切换到新的GCC版本呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Deprecated in favor of -std=c++20.
+# Original msgstr: 已经被弃用了喵，请使用 -std=gnu99谢谢喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Deprecated in favor of -std=c++23.
+# Original msgstr: 已经被弃用了喵，请使用 -std=gnu99谢谢喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Deprecated in favor of -std=c23.
+# Original msgstr: 已经被弃用了喵，请使用 -std=c99谢谢喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Deprecated in favor of -std=gnu++20.
+# Original msgstr: 已经被弃用了喵，请使用 -std=gnu++11谢谢喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Deprecated in favor of -std=gnu++23.
+# Original msgstr: 已经被弃用了喵，请使用 -std=gnu++11谢谢喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Deprecated in favor of -std=gnu23.
+# Original msgstr: 已经被弃用了喵，请使用 -std=gnu11谢谢喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Warn if numeric string is invalid.
+# Original msgstr: 右移次数居然是负的呢
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: In variable %qs
+# Original msgstr: 你是不是忘了某个叫作%qD的东西
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: call invocation refers to locals
+# Original msgstr: comdat 本地符号：'又在想我了喵~'
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: invalid conversion from type %<mfloat8_t%>
+# Original msgstr: 从%<__fpreg%>的转换是无效的喵~
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: emit unrecognizable insn
+# Original msgstr: 无法识别的指令，你自己看着办吧：
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: invalid conversion from type %<__bf16%> without option %<-msse2%>
+# Original msgstr: 从%<__fpreg%>的转换是无效的喵~
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: invalid conversion from type %<_Float16%> without option %<-msse2%>
+# Original msgstr: 从%<__fpreg%>的转换是无效的喵~
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %s: parameter %<
+# Original msgstr: 你是不是忘了某个叫作%qD的东西
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: unknown lam type %qs
+# Original msgstr: 未知的类型名%qE,是忘了定义了吗喵？
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: valid %<-foffload=%> arguments are: %s
+# Original msgstr: %L过程参数是无效的喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD source argument is the same as destination
+# Original msgstr: 属性%qE的参数是无效的喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified bound %s exceeds maximum object size %E
+# Original msgstr: %D数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qs specified bound %s exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified bound %E exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified bound [%E, %E] exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified bound %E may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified bound %E may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified bound %E exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified bound [%E, %E] may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified bound [%E, %E] may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified bound [%E, %E] exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified bound %E exceeds source size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified size %E may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified size %E exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified size %E may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified size %E exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified size between %E and %E may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified size between %E and %E exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified size between %E and %E may exceed maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: specified size between %E and %E exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: argument %i value %qE exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: argument %i range [%E, %E] exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: product %<%E * %E%> of arguments %i and %i exceeds maximum object size %E
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: invalid memory model %wi for %qD
+# Original msgstr: %2$qE的第 %1$d 个实参类型不能被强行兼容喵！会坏掉的喵！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified bound %wu exceeds maximum object size %wu
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qD specified bound between %wu and %wu exceeds maximum object size %wu
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: threadprivate iteration variable %qD
+# Original msgstr: 迭代变量%qE类型是无效的喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: type name %qs should match type name %qs
+# Original msgstr: 限定类型%qT不匹配析构函数名 ~%qT
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: type %qT should match type %qT
+# Original msgstr: 限定类型%qT不匹配析构函数名 ~%qT
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: command-line option %qs is valid for the driver but not for %s
+# Original msgstr: 命令行选项“%s”对 %s 是有效的，但对 %s 是无效的喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: size %qE of array %qE is negative
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: size of array %qE exceeds maximum object size %qE
+# Original msgstr: %E数组与内存的距离为负数了呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %s %e expects argument of type %e, but argument %d has type %e
+# Original msgstr: %s %<%s%.*s%> 需要参数类型%<%s%s%>，但第 %d 个实参的类型却是%qT，长点心吧喂！！！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: variable %qD used in initializer is bound in intervening code
+# Original msgstr: 变量%qD有初始值设定但类型并不完全呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: promoted bitwise complement of an unsigned value is always nonzero
+# Original msgstr: 提升后的 ~unsigned 总是非零值
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qs is defined in header %qs; this is probably fixable by adding %<#include %s%>
+# Original msgstr: %qs是定义在头文件%qs里的，人家看你就是忘记%<#include %s%>了～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: call to %qE is ambiguous; argument %d has type %qs but argument %d has type %qs
+# Original msgstr: 格式%q.*s需要类型%<%s%s%>，但实参 %d 的类型却是%qT，长点心吧喂！！！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qE needs unknown isa option
+# Original msgstr: %q我才不知道你说的 ISA 是什么呢~
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: redefinition of %<CTABLE_ENTRY %wd%>
+# Original msgstr: %q#T又定义了一遍哦，删掉一个吧~
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: function previously declared %<static%> redeclared %<extern%>
+# Original msgstr: 先前被声明为%<static%>的变量重声明为%<extern%>，才...才不会困扰呢！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %<switch%> name defined here
+# Original msgstr: 结构在此定义～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: no declaration of base function %qs
+# Original msgstr: 你刚刚隐式声明了函数%qE，这个特性早就被弃用了，是学某本C语言教科书的杂鱼呢～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: ISO C forbids subscripting %<register%> array before C2Y
+# Original msgstr: 这个世界线的ISO C貌似并不允许按下标访问%<register%>数组喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: expected %e but argument is of type %e
+# Original msgstr: 需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: expected %qT but pointer is of type %qT
+# Original msgstr: 需要类型%qT，但实参的类型却是%qT，长点心吧喂！！！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: returning %e from a function with incompatible return type %e
+# Original msgstr: 在返回%qT的函数中返回%qT,你可长点心吧喂！！！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: initialization of %qT from %qT makes integer from pointer without a cast
+# Original msgstr: 初始化将指针赋给整数，并且你没有类型转换，真是个笨蛋！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: conversion from %qT to %qT changes value from %qd to %qd
+# Original msgstr: 变量从%qT转换为%qT时，它的值会从 %qE 变为 %qE，才...才不是好心提醒你呢！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: could not find an integer type of the same size as %qT
+# Original msgstr: 类%qE的接口是不是被你这个变态藏起来了
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: could not include %s
+# Original msgstr: specs文件%s是不是被你这个变态藏起来了\n
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Unknown type %d
+# Original msgstr: 未知的类型名%qE,是忘了定义了吗喵？
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: inferred scalar type %qT is not an integer or floating-point type of the same size as %qT
+# Original msgstr: 类%qE的接口是不是被你这个变态藏起来了
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %qs awaitable type %qT is not a structure
+# Original msgstr: 限定的类型%qT不匹配析构函数名 ~%qT
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: awaitable type %qT is not a structure
+# Original msgstr: 限定的类型%qT不匹配析构函数名 ~%qT
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: %<std::%s%> is defined in header %qs; this is probably fixable by adding %<#include %s%>
+# Original msgstr: %<std::%s%>是定义在头文件%qs里的，人家看你就是忘记%<#include %s%>了～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: cannot convert parameter %qs from type %qs to type %qs in argument passing
+# Original msgstr: 参数中%qH无法转换为%qI类型,建议重开谢谢喵～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: Variable %qs in locality-spec at %L is not used
+# Original msgstr: 变量%qD被设定但未被使用，你是不是又把人家忘了！！！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: As extending type %qs at %L has a coarray component, parent type %qs shall also have one
+# Original msgstr: 作为延伸类型‘%s’于 %L 有 coarray 成分，亲代类型‘%s’应该也有一个
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: storage size of %qD has not been resolved
+# Original msgstr: %qD的存储大小未知,咱可并不喜欢你这种神秘感～
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: instance variable %qs is declared private
+# Original msgstr: %qE不可以哦！
+
+# Original kawaii translation for a DIFFERENT msgid:
+# msgid: invalid custom instruction option %qs
+# Original msgstr: 向函数类型%qT的转换是无效的喵～
+
