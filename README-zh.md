@@ -149,9 +149,9 @@ alias g++='orb g++'
 
 #### 关于`src`目录下的文件
 
-- `ja-kawaii.po`: 本项目已修改的日语本地化内容。
-- `zh-origin.po`: GNU提供的原始简体中文版本地化文件。
-- `zh-kawaii-patch.po`: 本项目已修改的本地化内容。
+- `zh-origin.po`: GNU提供的原始简体中文版本地化文件（GCC 16.1.0）。
+- `zh_CN-kawaii-patch.po`: 本项目已修改的本地化内容。
+- `zh_CN-kawaii.po`: 合并生成的完整可爱化版本地化文件。
 
 ## Star History
 
