@@ -8138,24 +8138,6 @@ msgstr "[%s是不是被你这个变态藏起来了]"
 msgid "collect2 version %s\n"
 msgstr "collect2 版本 %s哦\n"
 
-#: collect2.cc:1671
-#, c-format
-msgid "%d constructor found\n"
-msgid_plural "%d constructors found\n"
-msgstr[0] "找到 %d 个构造函数\n"
-
-#: collect2.cc:1675
-#, c-format
-msgid "%d destructor found\n"
-msgid_plural "%d destructors found\n"
-msgstr[0] "找到 %d 个析构函数\n"
-
-#: collect2.cc:1679
-#, c-format
-msgid "%d frame table found\n"
-msgid_plural "%d frame tables found\n"
-msgstr[0] "找到 %d 个框架表\n"
-
 #: collect2.cc:1834
 #, c-format
 msgid "[Leaving %s]\n"
@@ -11030,11 +11012,6 @@ msgstr "(匿名)喵~"
 msgid "expected %<<%>"
 msgstr "需要%<<%>呢"
 
-#: cp/call.cc:8800 cp/pt.cc:27736
-msgid "candidate is:"
-msgid_plural "candidates are:"
-msgstr[0] "备选是："
-
 #: cp/call.cc:13469 cp/call.cc:13921
 msgid "candidate 1:"
 msgstr "备选 1："
@@ -12313,18 +12290,6 @@ msgid ""
 "%qE implies default visibility, but %qD has already been declared with a "
 "different visibility"
 msgstr "%qE意味着默认可见性；但%qD已经被声明为有不同的可见性喵~"
-
-#: attribs.cc:2370
-msgid "%qD specifies more restrictive attribute than its target %qD: %e"
-msgid_plural ""
-"%qD specifies more restrictive attributes than its target %qD: %e"
-msgstr[0] ""
-
-#: attribs.cc:2392
-msgid "%qD specifies less restrictive attribute than its target %qD: %e"
-msgid_plural ""
-"%qD specifies less restrictive attributes than its target %qD: %e"
-msgstr[0] ""
 
 #: auto-profile.cc:822
 #, gcc-internal-format, gfc-internal-format
@@ -13787,32 +13752,6 @@ msgstr ""
 msgid "%qE writing a terminating nul past the end of the destination"
 msgstr ""
 
-#: gimple-ssa-sprintf.cc:2855
-#, gcc-internal-format
-msgid "%<%.*s%> directive writing %wu byte into a region of size %wu"
-msgid_plural "%<%.*s%> directive writing %wu bytes into a region of size %wu"
-msgstr[0] ""
-
-#: gimple-ssa-sprintf.cc:2862
-#, gcc-internal-format
-msgid ""
-"%<%.*s%> directive output may be truncated writing %wu byte into a region of"
-" size %wu"
-msgid_plural ""
-"%<%.*s%> directive output may be truncated writing %wu bytes into a region "
-"of size %wu"
-msgstr[0] ""
-
-#: gimple-ssa-sprintf.cc:2869
-#, gcc-internal-format
-msgid ""
-"%<%.*s%> directive output truncated writing %wu byte into a region of size "
-"%wu"
-msgid_plural ""
-"%<%.*s%> directive output truncated writing %wu bytes into a region of size "
-"%wu"
-msgstr[0] ""
-
 #: gimple-ssa-sprintf.cc:2880
 #, gcc-internal-format
 msgid ""
@@ -13892,36 +13831,6 @@ msgstr ""
 #, gcc-internal-format
 msgid "%<%.*s%> directive writing %wu or more bytes into a region of size %wu"
 msgstr ""
-
-#: gimple-ssa-sprintf.cc:2974
-#, gcc-internal-format
-msgid ""
-"%<%.*s%> directive writing %wu byte into a region of size between %wu and "
-"%wu"
-msgid_plural ""
-"%<%.*s%> directive writing %wu bytes into a region of size between %wu and "
-"%wu"
-msgstr[0] ""
-
-#: gimple-ssa-sprintf.cc:2981
-#, gcc-internal-format
-msgid ""
-"%<%.*s%> directive output may be truncated writing %wu byte into a region of"
-" size between %wu and %wu"
-msgid_plural ""
-"%<%.*s%> directive output may be truncated writing %wu bytes into a region "
-"of size between %wu and %wu"
-msgstr[0] ""
-
-#: gimple-ssa-sprintf.cc:2989
-#, gcc-internal-format
-msgid ""
-"%<%.*s%> directive output truncated writing %wu byte into a region of size "
-"between %wu and %wu"
-msgid_plural ""
-"%<%.*s%> directive output truncated writing %wu bytes into a region of size "
-"between %wu and %wu"
-msgstr[0] ""
 
 #: gimple-ssa-sprintf.cc:3001
 #, gcc-internal-format
@@ -14063,22 +13972,10 @@ msgstr ""
 msgid "%<%.*s%> directive argument is not a nul-terminated string"
 msgstr ""
 
-#: gimple-ssa-sprintf.cc:3357
-#, gcc-internal-format
-msgid "assuming directive output of %wu byte"
-msgid_plural "assuming directive output of %wu bytes"
-msgstr[0] ""
-
 #: gimple-ssa-sprintf.cc:3370
 #, gcc-internal-format
 msgid "using the range [%E, %E] for directive argument"
 msgstr ""
-
-#: gimple-ssa-sprintf.cc:3390
-#, gcc-internal-format
-msgid "%qE output %wu byte into a destination of size %wu"
-msgid_plural "%qE output %wu bytes into a destination of size %wu"
-msgstr[0] ""
 
 #: gimple-ssa-sprintf.cc:3395
 #, gcc-internal-format
@@ -14095,12 +13992,6 @@ msgstr ""
 #, gcc-internal-format
 msgid "%qE output %wu or more bytes into a destination of size %wu"
 msgstr ""
-
-#: gimple-ssa-sprintf.cc:3416
-#, gcc-internal-format
-msgid "%qE output %wu byte"
-msgid_plural "%qE output %wu bytes"
-msgstr[0] ""
 
 #: gimple-ssa-sprintf.cc:3420
 #, gcc-internal-format
@@ -14130,11 +14021,6 @@ msgstr ""
 #: gimple-ssa-sprintf.cc:3979
 msgid "%qE arguments %Z and maybe %Z overlap destination object %qE"
 msgstr ""
-
-#: gimple-ssa-sprintf.cc:4002
-msgid "%qE argument %Z may overlap destination object %qE"
-msgid_plural "%qE arguments %Z may overlap destination object %qE"
-msgstr[0] ""
 
 #: gimple-ssa-sprintf.cc:4022
 #, gcc-internal-format
@@ -14533,18 +14419,6 @@ msgstr ""
 msgid "reading between %E and %E bytes from a region of size %E"
 msgstr ""
 
-#: gimple-ssa-warn-access.cc:1165
-#, gcc-internal-format
-msgid "%qD expecting %E byte in a region of size %E"
-msgid_plural "%qD expecting %E bytes in a region of size %E"
-msgstr[0] ""
-
-#: gimple-ssa-warn-access.cc:1170
-#, gcc-internal-format
-msgid "expecting %E byte in a region of size %E"
-msgid_plural "expecting %E bytes in a region of size %E"
-msgstr[0] ""
-
 #: gimple-ssa-warn-access.cc:1178
 #, gcc-internal-format
 msgid "%qD expecting %E or more bytes in a region of size %E"
@@ -14672,36 +14546,6 @@ msgid ""
 "%qD accessing %wu bytes at offsets %s and %s overlaps %wu bytes at offset %s"
 msgstr ""
 
-#: gimple-ssa-warn-restrict.cc:1528
-#, gcc-internal-format
-msgid ""
-"%qD accessing %wu byte at offsets %s and %s overlaps between %wu and %wu "
-"bytes at offset %s"
-msgid_plural ""
-"%qD accessing %wu bytes at offsets %s and %s overlaps between %wu and %wu "
-"bytes at offset %s"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1538
-#, gcc-internal-format
-msgid ""
-"%qD accessing %wu byte at offsets %s and %s overlaps %wu or more bytes at "
-"offset %s"
-msgid_plural ""
-"%qD accessing %wu bytes at offsets %s and %s overlaps %wu or more bytes at "
-"offset %s"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1551
-#, gcc-internal-format
-msgid ""
-"%qD accessing between %wu and %wu bytes at offsets %s and %s overlaps %wu "
-"byte at offset %s"
-msgid_plural ""
-"%qD accessing between %wu and %wu bytes at offsets %s and %s overlaps %wu "
-"bytes at offset %s"
-msgstr[0] ""
-
 #: gimple-ssa-warn-restrict.cc:1561
 #, gcc-internal-format
 msgid ""
@@ -14716,16 +14560,6 @@ msgid ""
 " more bytes at offset %s"
 msgstr ""
 
-#: gimple-ssa-warn-restrict.cc:1582
-#, gcc-internal-format
-msgid ""
-"%qD accessing %wu or more bytes at offsets %s and %s overlaps %wu byte at "
-"offset %s"
-msgid_plural ""
-"%qD accessing %wu or more bytes at offsets %s and %s overlaps %wu bytes at "
-"offset %s"
-msgstr[0] ""
-
 #: gimple-ssa-warn-restrict.cc:1590
 #, gcc-internal-format
 msgid ""
@@ -14739,65 +14573,6 @@ msgid ""
 "%qD accessing %wu or more bytes at offsets %s and %s overlaps %wu or more "
 "bytes at offset %s"
 msgstr ""
-
-#: gimple-ssa-warn-restrict.cc:1625
-#, gcc-internal-format
-msgid "%qD accessing %wu byte may overlap %wu byte"
-msgid_plural "%qD accessing %wu bytes may overlap %wu byte"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1632
-#, gcc-internal-format
-msgid ""
-"%qD accessing %wu byte at offsets %s and %s may overlap %wu byte at offset "
-"%s"
-msgid_plural ""
-"%qD accessing %wu bytes at offsets %s and %s may overlap %wu byte at offset "
-"%s"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1643
-#, gcc-internal-format
-msgid "%qD accessing %wu byte may overlap up to %wu bytes"
-msgid_plural "%qD accessing %wu bytes may overlap up to %wu bytes"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1650
-#, gcc-internal-format
-msgid ""
-"%qD accessing %wu byte at offsets %s and %s may overlap up to %wu bytes at "
-"offset %s"
-msgid_plural ""
-"%qD accessing %wu bytes at offsets %s and %s may overlap up to %wu bytes at "
-"offset %s"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1663
-#, gcc-internal-format
-msgid "%qD accessing between %wu and %wu bytes may overlap %wu byte"
-msgid_plural ""
-"%qD accessing between %wu and %wu bytes may overlap up to %wu bytes"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1670
-#, gcc-internal-format
-msgid ""
-"%qD accessing between %wu and %wu bytes at offsets %s and %s may overlap %wu"
-" byte at offset %s"
-msgid_plural ""
-"%qD accessing between %wu and %wu bytes at offsets %s and %s may overlap up "
-"to %wu bytes at offset %s"
-msgstr[0] ""
-
-#: gimple-ssa-warn-restrict.cc:1682
-#, gcc-internal-format
-msgid ""
-"%qD accessing %wu or more bytes at offsets %s and %s may overlap %wu byte at"
-" offset %s"
-msgid_plural ""
-"%qD accessing %wu or more bytes at offsets %s and %s may overlap up to %wu "
-"bytes at offset %s"
-msgstr[0] ""
 
 #: gimple-ssa-warn-restrict.cc:1797
 #, gcc-internal-format
@@ -15322,60 +15097,6 @@ msgstr ""
 #, gcc-internal-format
 msgid "one type needs to be constructed while the other does not"
 msgstr ""
-
-#: ipa-devirt.cc:3990
-#, gcc-internal-format
-msgid "Declaring type %qD final would enable devirtualization of %i call"
-msgid_plural ""
-"Declaring type %qD final would enable devirtualization of %i calls"
-msgstr[0] ""
-
-#: ipa-devirt.cc:3999
-#, gcc-internal-format
-msgid ""
-"Declaring type %qD final would enable devirtualization of %i call executed "
-"%lli times"
-msgid_plural ""
-"Declaring type %qD final would enable devirtualization of %i calls executed "
-"%lli times"
-msgstr[0] ""
-
-#: ipa-devirt.cc:4029
-#, gcc-internal-format
-msgid ""
-"Declaring virtual destructor of %qD final would enable devirtualization of "
-"%i call"
-msgid_plural ""
-"Declaring virtual destructor of %qD final would enable devirtualization of "
-"%i calls"
-msgstr[0] ""
-
-#: ipa-devirt.cc:4037
-#, gcc-internal-format
-msgid "Declaring method %qD final would enable devirtualization of %i call"
-msgid_plural ""
-"Declaring method %qD final would enable devirtualization of %i calls"
-msgstr[0] ""
-
-#: ipa-devirt.cc:4045
-#, gcc-internal-format
-msgid ""
-"Declaring virtual destructor of %qD final would enable devirtualization of "
-"%i call executed %lli times"
-msgid_plural ""
-"Declaring virtual destructor of %qD final would enable devirtualization of "
-"%i calls executed %lli times"
-msgstr[0] ""
-
-#: ipa-devirt.cc:4056
-#, gcc-internal-format
-msgid ""
-"Declaring method %qD final would enable devirtualization of %i call executed"
-" %lli times"
-msgid_plural ""
-"Declaring method %qD final would enable devirtualization of %i calls "
-"executed %lli times"
-msgstr[0] ""
 
 #: ipa-devirt.cc:4385
 #, gcc-internal-format
@@ -17282,30 +17003,6 @@ msgid ""
 "%<strlen%>"
 msgstr ""
 
-#: tree-ssa-strlen.cc:2138
-#, gcc-internal-format
-msgid "%qD writing %wu byte into a region of size %wu"
-msgid_plural "%qD writing %wu bytes into a region of size %wu"
-msgstr[0] ""
-
-#: tree-ssa-strlen.cc:2146
-#, gcc-internal-format
-msgid "writing %wu byte into a region of size %wu"
-msgid_plural "writing %wu bytes into a region of size %wu"
-msgstr[0] ""
-
-#: tree-ssa-strlen.cc:2156
-#, gcc-internal-format
-msgid "%qD writing %wu byte into a region of size between %wu and %wu"
-msgid_plural "%qD writing %wu bytes into a region of size between %wu and %wu"
-msgstr[0] ""
-
-#: tree-ssa-strlen.cc:2164
-#, gcc-internal-format
-msgid "writing %wu byte into a region of size between %wu and %wu"
-msgid_plural "writing %wu bytes into a region of size between %wu and %wu"
-msgstr[0] ""
-
 #: tree-ssa-strlen.cc:2174
 #, gcc-internal-format
 msgid "%qD writing between %wu and %wu bytes into a region of size %wu"
@@ -17329,37 +17026,12 @@ msgid ""
 "writing between %wu and %wu bytes into a region of size between %wu and %wu"
 msgstr ""
 
-#: tree-ssa-strlen.cc:3090
-#, gcc-internal-format
-msgid ""
-"%qD output truncated before terminating nul copying %E byte from a string of"
-" the same length"
-msgid_plural ""
-"%qD output truncated before terminating nul copying %E bytes from a string "
-"of the same length"
-msgstr[0] ""
-
-#: tree-ssa-strlen.cc:3106
-#, gcc-internal-format
-msgid "%qD output truncated copying %E byte from a string of length %wu"
-msgid_plural ""
-"%qD output truncated copying %E bytes from a string of length %wu"
-msgstr[0] ""
-
 #: tree-ssa-strlen.cc:3113
 #, gcc-internal-format
 msgid ""
 "%qD output truncated copying between %wu and %wu bytes from a string of "
 "length %wu"
 msgstr ""
-
-#: tree-ssa-strlen.cc:3125
-#, gcc-internal-format
-msgid ""
-"%qD output may be truncated copying %E byte from a string of length %wu"
-msgid_plural ""
-"%qD output may be truncated copying %E bytes from a string of length %wu"
-msgstr[0] ""
 
 #: tree-ssa-strlen.cc:3132 tree-ssa-strlen.cc:3148
 #, gcc-internal-format
@@ -20029,25 +19701,6 @@ msgstr ""
 msgid "argument %u of type %s declared as an ordinary array"
 msgstr ""
 
-#: c-family/c-warn.cc:3593
-#, gcc-internal-format, gfc-internal-format
-msgid "argument %u of type %s declared with %u unspecified variable bound"
-msgid_plural ""
-"argument %u of type %s declared with %u unspecified variable bounds"
-msgstr[0] ""
-
-#: c-family/c-warn.cc:3601
-#, gcc-internal-format, gfc-internal-format
-msgid "previously declared as %s with %u unspecified variable bound"
-msgid_plural "previously declared as %s with %u unspecified variable bounds"
-msgstr[0] ""
-
-#: c-family/c-warn.cc:3608
-#, gcc-internal-format, gfc-internal-format
-msgid "subsequently declared as %s with %u unspecified variable bound"
-msgid_plural "subsequently declared as %s with %u unspecified variable bounds"
-msgstr[0] ""
-
 #: c-family/c-warn.cc:3659
 #, gcc-internal-format
 msgid "argument %u of type %s declared with mismatched bound argument %E"
@@ -20537,17 +20190,6 @@ msgid ""
 "JSON tuning enables dispatch scheduling but %<dispatch_constraints%> is not "
 "available; disabling dispatch scheduling"
 msgstr ""
-
-#. num_vectors is always != 1, so the singular isn't needed.
-#: config/aarch64/aarch64-sve-builtins.cc:1760
-#: config/aarch64/aarch64-sve-builtins.cc:1766
-#: config/arm/arm-mve-builtins.cc:1311 config/arm/arm-mve-builtins.cc:1317
-#, gcc-internal-format
-msgid "%qT%d%qE%d"
-msgid_plural ""
-"passing single vector %qT to argument %d of %qE, which expects a tuple of %d"
-" vectors"
-msgstr[0] ""
 
 #: config/aarch64/aarch64-sve-builtins.cc:1808
 #, gcc-internal-format
@@ -29035,18 +28677,6 @@ msgid ""
 "static data members"
 msgstr ""
 
-#: cp/decl.cc:10791
-#, gcc-internal-format, gfc-internal-format
-msgid "only %u name provided for structured binding"
-msgid_plural "only %u names provided for structured binding"
-msgstr[0] ""
-
-#: cp/decl.cc:10794
-#, gcc-internal-format
-msgid "while %qT decomposes into %wu element"
-msgid_plural "while %qT decomposes into %wu elements"
-msgstr[0] ""
-
 #: cp/decl.cc:10946
 #, gcc-internal-format
 msgid "while %qT decomposes into %E elements"
@@ -31171,12 +30801,6 @@ msgstr "%qD属性无意义，因为匿名命名空间的成员拥有局部符号
 msgid "%qD attribute directive ignored"
 msgstr "指定%qD属性被忽略别忘了哦~"
 
-#: cp/name-lookup.cc:7215
-#, gcc-internal-format
-msgid "suggested alternative:"
-msgid_plural "suggested alternatives:"
-msgstr[0] "才...才不是建议的替代呢："
-
 #: cp/name-lookup.cc:7221
 #, gcc-internal-format
 msgid "  %qE"
@@ -32691,12 +32315,6 @@ msgstr "%qT的实例化在%qT的特例化之后啦"
 msgid "specialization of %qD after instantiation"
 msgstr "%qD的特例化在实例化之后吧"
 
-#: cp/pt.cc:2085
-#, gcc-internal-format, gfc-internal-format
-msgid "there is %i candidate"
-msgid_plural "there are %i candidates"
-msgstr[0] ""
-
 #: cp/pt.cc:2254
 #, gcc-internal-format
 msgid "%qD is not a function template"
@@ -32805,13 +32423,6 @@ msgid ""
 "parameter pack argument %qT must be at the end of the template argument list"
 msgstr "参数包实参%qT必须出现在模板实参表末尾喵！笨蛋！"
 
-#: cp/pt.cc:5505
-#, gcc-internal-format
-msgid "type %qT of template argument %qE depends on a template parameter"
-msgid_plural ""
-"type %qT of template argument %qE depends on template parameters"
-msgstr[0] "模板实参%2$qE的类型%1$qT取决于模板参数"
-
 #: cp/pt.cc:5760
 #, gcc-internal-format
 msgid "no default argument for %qD"
@@ -32888,12 +32499,6 @@ msgstr "%qT不是一个模板类型啦！长点心吧喂！！！"
 msgid "template specifiers not specified in declaration of %qD"
 msgstr "%qD的声明中没有 template 限定啦"
 
-#: cp/pt.cc:6479
-#, gcc-internal-format, gfc-internal-format
-msgid "redeclared with %d template parameter"
-msgid_plural "redeclared with %d template parameters"
-msgstr[0] "重声明为具有 %d 个模板参数"
-
 #: cp/pt.cc:6517
 #, gcc-internal-format
 msgid "template parameter %q+#D"
@@ -32913,12 +32518,6 @@ msgstr "%qE不是类型%qT的有效模板参数喵～再检查一下吧！"
 #, gcc-internal-format
 msgid "it must be the address of a function with external linkage"
 msgstr "它必须是一个具有外部链接函数的地址喵？！你是不是又搞错了！"
-
-#: cp/pt.cc:7268
-#, gcc-internal-format, gfc-internal-format
-msgid "  candidate expects %d argument, %d provided"
-msgid_plural "  candidate expects %d arguments, %d provided"
-msgstr[0] " 备选需要 %d 实参，但提供了 %d 个"
 
 #: cp/pt.cc:7469
 #, gcc-internal-format
@@ -34139,12 +33738,6 @@ msgstr ""
 #, gcc-internal-format
 msgid "%qD and %qD do not correspond"
 msgstr ""
-
-#: cp/typeck.cc:2023
-#, gcc-internal-format
-msgid "%qT has %u field"
-msgid_plural "%qT has %u fields"
-msgstr[0] ""
 
 #: cp/typeck.cc:2183
 #, gcc-internal-format
@@ -37556,14 +37149,14 @@ msgstr ""
 #: fortran/match.cc:2057
 #, gcc-internal-format, gfc-internal-format
 msgid "Selector in coarray association as %C shall be a named coarray"
-msgstr ""
+msgstr "在coarray关联中的选择器作为%C时，它必须是一个命名的coarray哦，杂鱼。"
 
 #: fortran/match.cc:2131
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "The associate name %s with an assumed rank target at %L must have a bounds "
 "remapping list (list of lbound:ubound for each dimension)"
-msgstr ""
+msgstr "关联的名字%s，目标等级在%L的地方，必须有边界重映射啦。这都不懂吗？"
 
 #: fortran/match.cc:2421 fortran/match.cc:2493 fortran/match.cc:2516
 #, gcc-internal-format, gfc-internal-format
@@ -37579,7 +37172,7 @@ msgstr "%C处 FORALL 游标语法错误呢笨蛋！"
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Failed to create shadow variable symtree for DO CONCURRENT type-spec at %L"
-msgstr ""
+msgstr "无法为DO CONCURRENT类型的类型规范创建影子变量的symtree了，在%L消息里呀。这都不懂吗？"
 
 #: fortran/match.cc:3567
 #, gcc-internal-format, gfc-internal-format
@@ -37589,14 +37182,14 @@ msgstr "%C处的 EXIT 语句终结了 !$OMP DO 循环啦"
 #: fortran/match.cc:3706
 #, gcc-internal-format, gfc-internal-format
 msgid "STOP code at %C contains too many digits"
-msgstr ""
+msgstr "STOP，代码中 %C 包含的数字太多了啦，杂鱼。"
 
 #: fortran/match.cc:3769
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "STOP code at %L must be a scalar CHARACTER constant or "
 "digit[digit[digit[digit[digit]]]]"
-msgstr ""
+msgstr "停在%L处的代码，必须是一个标量字符常量或数字[数字[数字[数字[d，杂鱼。"
 
 #: fortran/match.cc:4847
 #, gcc-internal-format, gfc-internal-format
@@ -37613,7 +37206,7 @@ msgstr "%C处 GOTO 中的语句标号列表不能为空喵！笨蛋！"
 msgid ""
 "The type parameter spec list in the type-spec at %L cannot contain DEFERRED "
 "parameters"
-msgstr ""
+msgstr "类型规范中，在 %L 处的类型参数规范列表中，不允许包含 DEFERRED 参数啦，杂鱼。这都不懂吗？"
 
 #: fortran/match.cc:5122
 #, gcc-internal-format, gfc-internal-format
@@ -37645,7 +37238,7 @@ msgstr "%L处的 SOURCE 标记与%L处的类型指定冲突啦！长点心吧喂
 #: fortran/match.cc:5484
 #, gcc-internal-format, gfc-internal-format
 msgid "NULLIFY does not allow bounds remapping for pointer object at %C"
-msgstr ""
+msgstr "NULLIFY 不允许对指针对象进行边界重映射，在 %C处呢，杂鱼。这都不懂吗。"
 
 #: fortran/match.cc:5579
 #, gcc-internal-format, gfc-internal-format
@@ -37677,7 +37270,7 @@ msgstr "%C处需要一个类型限定的过程或过程指针组件喵~"
 msgid ""
 "A BOZ literal constant at %L cannot appear as an actual argument in a "
 "subroutine reference"
-msgstr ""
+msgstr "一个BOZ字面常量在子程序中不能作为实际的参数出现呢，杂鱼。这都不懂吗？"
 
 #: fortran/match.cc:6048
 #, gcc-internal-format, gfc-internal-format
@@ -37689,7 +37282,7 @@ msgstr "%C处公共块名语法错误呢笨蛋！"
 msgid ""
 "Symbol %qs at %C is USE associated from module %qs and cannot occur in "
 "COMMON"
-msgstr ""
+msgstr "符号 %qs 在 %C 中是来自模块 %qs 的 USE 关联，不能出现在 COMMON 中哦"
 
 #. It is required that members of a namelist be declared
 #. before the namelist.  We check this by checking if the
@@ -37699,7 +37292,7 @@ msgstr ""
 msgid ""
 "Symbol %qs in namelist %qs at %C must be declared before the namelist is "
 "declared."
-msgstr ""
+msgstr "符号 %qs 在 namelist %qs 中于 %C 必须在 namelist 被声明之前就被声明哦，杂鱼。这都不懂吗？"
 
 #: fortran/match.cc:6629
 #, gcc-internal-format, gfc-internal-format
@@ -37746,7 +37339,7 @@ msgstr "%C处 SELECT TYPE 中的选择子不是一个有名变量；请使用 as
 #: fortran/match.cc:7778 fortran/match.cc:7832
 #, gcc-internal-format, gfc-internal-format
 msgid "The SELECT RANK selector at %C must be an assumed rank variable"
-msgstr ""
+msgstr "在%C处的SELECT RANK选择器必须是一个假定秩变量哦，杂鱼"
 
 #: fortran/match.cc:7878
 #, gcc-internal-format, gfc-internal-format
@@ -37768,13 +37361,13 @@ msgstr "%C处非预期的 TYPE IS 语句喵？！你是不是又搞错了！"
 msgid ""
 "The type-spec shall not specify a sequence derived type or a type with the "
 "BIND attribute in SELECT TYPE at %C [F2003:C815]"
-msgstr ""
+msgstr "类型规范不应该指定一个序列派生类型或者一个带有BIND的类型哦，杂鱼。"
 
 #: fortran/match.cc:7989
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "All the LEN type parameters in the TYPE IS statement at %C must be ASSUMED"
-msgstr ""
+msgstr "在%C的TYPE IS语句里，所有的LEN类型参数都必须被当作是假设的哦，杂鱼。"
 
 #: fortran/match.cc:8002
 #, gcc-internal-format, gfc-internal-format
@@ -37791,7 +37384,7 @@ msgstr "%C处 CLASS IS 规格语法错误喵？！你是不是又搞错了！"
 msgid ""
 "The value of the SELECT RANK CASE expression at %C must not be less than "
 "zero or greater than %d"
-msgstr ""
+msgstr "SELECT RANK CASE 表达式在 %C 处的取值，可不小于零哦，杂鱼。"
 
 #: fortran/match.cc:8302
 #, gcc-internal-format, gfc-internal-format
@@ -37819,17 +37412,17 @@ msgstr "扩展：%C处单目运算符出现在算术运算符之后哦"
 #: fortran/misc.cc:116
 #, gcc-internal-format
 msgid "gfc_basic_typename(): Undefined type"
-msgstr ""
+msgstr "`gfc_basic_typename()`：未定义的类型，杂鱼。这都不懂吗？"
 
 #: fortran/module.cc:245
 #, gcc-internal-format
 msgid "free_pi_tree(): Unresolved fixup"
-msgstr ""
+msgstr "`free_pi_tree()` 的修复没解决呢，杂鱼。"
 
 #: fortran/module.cc:462
 #, gcc-internal-format
 msgid "associate_integer_pointer(): Already associated"
-msgstr ""
+msgstr "`associate_integer_pointer()`: 已经关联了啦。"
 
 #: fortran/module.cc:558
 #, gcc-internal-format, gfc-internal-format
@@ -37851,7 +37444,7 @@ msgstr "%C处的 USE 语句缺少泛型规格呢笨蛋！"
 #: fortran/module.cc:1650
 #, gcc-internal-format
 msgid "require_atom(): bad atom type required"
-msgstr ""
+msgstr "需要一个原子类型啦，怎么会是错误的类型呢？真是拿你没办法呢。"
 
 #: fortran/module.cc:1699
 #, gcc-internal-format, gfc-internal-format
@@ -37861,44 +37454,44 @@ msgstr "写入模块文件时出错：%s喵！笨蛋！"
 #: fortran/module.cc:1749
 #, gcc-internal-format
 msgid "write_atom(): Trying to write dab atom"
-msgstr ""
+msgstr "`write_atom()`: 正在尝试写入 dab atom"
 
 #: fortran/module.cc:3015
 #, gcc-internal-format
 msgid "mio_array_ref(): Unknown array ref"
-msgstr ""
+msgstr "mio_array_ref(): 数组引用未知啦，这都不懂吗？"
 
 #: fortran/module.cc:5446
 #, gcc-internal-format, gfc-internal-format
 msgid "Ambiguous !$OMP DECLARE REDUCTION from module %s at %L"
-msgstr ""
+msgstr "模块 %s 在 %L 中，这个 !$OMP 声明的归约是不明确的啦，杂鱼。"
 
 #: fortran/module.cc:5449
 #, gcc-internal-format, gfc-internal-format
 msgid "Previous !$OMP DECLARE REDUCTION from module %s at %L"
-msgstr ""
+msgstr "之前在模块 %s 的 %L 中声明了 !$OMP REDUCTION 呢，杂鱼。"
 
 #: fortran/module.cc:5780
 #, gcc-internal-format
 msgid ""
 "Mismatch in components of derived type %qs from %qs at %C: expecting %qs, "
 "but got %qs"
-msgstr ""
+msgstr "派生类型的组件不匹配，从%qs到%qs在%C处，它期望的是%qs，结果却是……真是拿你没办法呢。"
 
 #: fortran/module.cc:6323
 #, gcc-internal-format
 msgid "write_symbol(): bad module symbol %qs"
-msgstr ""
+msgstr "`write_symbol()`：模块符号 %qs不对哦，杂鱼。"
 
 #: fortran/module.cc:6667
 #, gcc-internal-format
 msgid "write_symtree(): Symbol not written"
-msgstr ""
+msgstr "write_symtree(): 符号没有被写入呢，杂鱼。"
 
 #: fortran/module.cc:7026
 #, gcc-internal-format, gfc-internal-format
 msgid "import_iso_c_binding_module(): Unable to create symbol for %s"
-msgstr ""
+msgstr "`import_iso_c_binding_module()`： 没法为 %s 创建符号啦，杂鱼。"
 
 #: fortran/module.cc:7589
 #, gcc-internal-format, gfc-internal-format
@@ -37913,31 +37506,31 @@ msgstr ""
 msgid ""
 "Module file %qs has not been generated, either because the module does not "
 "contain a MODULE PROCEDURE or there is an error in the module."
-msgstr ""
+msgstr "模块文件 %qs 没有被生成，要么是因为模块不包含……你这都没搞懂吗？"
 
 #: fortran/module.cc:7815
 #, gcc-internal-format
 msgid ""
 "Cannot read module file %qs opened at %C, because it was created by a "
 "different version of GNU Fortran"
-msgstr ""
+msgstr "不能读取模块文件 %qs 在 %C 打开，因为它是由另一个……创建的啦，杂鱼。"
 
 #: fortran/module.cc:7832
 #, gcc-internal-format
 msgid "Cannot USE a submodule that is currently built"
-msgstr ""
+msgstr "不能使用当前已经构建的子模块哦，杂鱼。"
 
 #: fortran/module.cc:7834
 #, gcc-internal-format
 msgid "Cannot USE a module that is currently built"
-msgstr ""
+msgstr "不能使用当前已构建的模块啦"
 
 #: fortran/openmp.cc:547
 #, gcc-internal-format
 msgid ""
 "%qs at %L is part of the common block %</%s/%> and may only be specificed "
 "implicitly via the named common block"
-msgstr ""
+msgstr "%L 中的 %qs 是公共块 %</%s/%> 的一部分，只能被隐式指定啦，这都不懂吗"
 
 #: fortran/openmp.cc:618 fortran/openmp.cc:708
 #, gcc-internal-format, gfc-internal-format
@@ -37953,42 +37546,42 @@ msgstr "%2$C处未发现 COMMON 块 /%1$s/呢"
 #, gcc-internal-format
 msgid ""
 "%<omp_all_memory%> used with dependence-type other than OUT or INOUT at %L"
-msgstr ""
+msgstr "使用%<omp_all_memory%>时，依赖类型不是OUT或INOUT，在%L\" msgs那里啦，杂鱼。"
 
 #: fortran/openmp.cc:1500
 #, gcc-internal-format
 msgid "%<-%> operator at %C for reductions deprecated in OpenMP 5.2"
-msgstr ""
+msgstr "`%<-%>` 运算符在 `%C` 处用于规约的用法在 OpenMP 5.2 中已经被弃用了呢，杂鱼。"
 
 #: fortran/openmp.cc:1594
 #, gcc-internal-format, gfc-internal-format
 msgid "!$OMP DECLARE REDUCTION %s not found at %L"
-msgstr ""
+msgstr "!$OMP DECLARE REDUCTION %s 找不到，在 %L"
 
 #: fortran/openmp.cc:1664
 #, gcc-internal-format
 msgid ""
 "Invalid %qs directive at %L in %s clause: declarative, informational, and "
 "meta directives not permitted"
-msgstr ""
+msgstr "指令 %qs 在 %s 子句中的 %L 位置无效啦，怎么会这样呢？这都不懂吗！"
 
 #: fortran/openmp.cc:1722 fortran/openmp.cc:1732
 #, gcc-internal-format
 msgid ""
 "%qs directive mentioned multiple times in %s clause in %s directive at %L"
-msgstr ""
+msgstr "%qs 指令在 %s 子句中，在 %s 指令里被多次提及了呀，在 %L 处哦。"
 
 #: fortran/openmp.cc:1740
 #, gcc-internal-format
 msgid ""
 "%qs directive mentioned both times in ABSENT and CONTAINS clauses in %s "
 "directive at %L"
-msgstr ""
+msgstr "%qs 指令在 %s 指令的 ABSENT 和 CONTAINS 子句里都出现了呢，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:1836
 #, gcc-internal-format, gfc-internal-format
 msgid "Duplicate %s modifier at %L in USES_ALLOCATORS clause"
-msgstr ""
+msgstr "在USES_ALLOCATORS子句里，\"%L\"那里有重复的%s修饰符啦，这都不懂吗。"
 
 #: fortran/openmp.cc:1870
 #, gcc-internal-format
@@ -37996,32 +37589,32 @@ msgid ""
 "The specification of arguments to %<uses_allocators%> at %L where each item "
 "is of the form %<allocator(traits)%> is deprecated since OpenMP 5.2; instead"
 " use %<uses_allocators(traits(%s): %s)%>"
-msgstr ""
+msgstr "关于在 %L 处为 %<uses_allocators%> 指定参数，其中每个项目都是 o 的规范呢，杂鱼"
 
 #: fortran/openmp.cc:2058
 #, gcc-internal-format
 msgid "Character literal at %L must start with %<ompx_%>"
-msgstr ""
+msgstr "字符字面量在 %L 处，必须以 %<ompx_%> 开头哦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:2287
 #, gcc-internal-format
 msgid "Missing required %<target%> and/or %<targetsync%> modifier at %C"
-msgstr ""
+msgstr "缺少必需的 %<target%> 和/或 %<targetsync%> 修饰符在 %C那里呢，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:2423
 #, gcc-internal-format, gfc-internal-format
 msgid "Clause expected at %C after trailing comma"
-msgstr ""
+msgstr "在逗号后面应该期望一个子句，杂鱼。"
 
 #: fortran/openmp.cc:2575
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected COMPILATION or EXECUTION in AT clause at %C"
-msgstr ""
+msgstr "在 %C处的 AT 子句里，本该是编译或者执行呢，杂鱼。"
 
 #: fortran/openmp.cc:2634
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected TEAMS, PARALLEL or THREAD as binding in BIND at %C"
-msgstr ""
+msgstr "在BIND中，期望绑定是TEAMS、PARALLEL或THREAD，在%C的位置呢，杂鱼。这都不懂吗"
 
 #: fortran/openmp.cc:2664
 #, gcc-internal-format, gfc-internal-format
@@ -38033,401 +37626,401 @@ msgstr "%C处的 COLLAPSE 分句参数不是正整数常量呢笨蛋！"
 msgid ""
 "Expected ALLOC, TO, FROM, TOFROM, FIRSTPRIVATE, PRESENT, NONE or DEFAULT at "
 "%C"
-msgstr ""
+msgstr "在 %C 处，期望的是 ALLOC, TO, FROM, TOFROM, FIRSTPRIVATE, PRESENT, NONE 或 DEFAULT 呀，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:2788
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected SCALAR, AGGREGATE, ALLOCATABLE, POINTER or ALL at %C"
-msgstr ""
+msgstr "期望在 %C 处是 SCALAR, AGGREGATE, ALLOCATABLE, POINTER 或 ALL 啦，杂鱼。"
 
 #: fortran/openmp.cc:2821
 #, gcc-internal-format, gfc-internal-format
 msgid "DEFAULTMAP at %C but prior DEFAULTMAP with unspecified category"
-msgstr ""
+msgstr "`DEFAULTMAP` 在 %C 处，但是之前有一个没有指定类别的 `DEFAULTMAP` 呢，杂鱼。"
 
 #: fortran/openmp.cc:2824
 #, gcc-internal-format, gfc-internal-format
 msgid "DEFAULTMAP at %C but prior DEFAULTMAP for category %s"
-msgstr ""
+msgstr "在 %C 处发现 DEFAULTMAP，但是对于类别 %s 的先前的 DEFAULTMAP呢"
 
 #: fortran/openmp.cc:2863
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected NONE, FIRSTPRIVATE, PRIVATE or SHARED in DEFAULT clause at %C"
-msgstr ""
+msgstr "期望在 DEFAULT 子句中是 NONE, FIRSTPRIVATE, PRIVATE 或 SHARED 呢，杂鱼。"
 
 #: fortran/openmp.cc:2913
 #, gcc-internal-format, gfc-internal-format
 msgid "ITERATOR may not be combined with SOURCE at %C"
-msgstr ""
+msgstr "迭代器可不能和源文件结合哦，杂鱼。"
 
 #: fortran/openmp.cc:2919
 #, gcc-internal-format, gfc-internal-format
 msgid "SOURCE at %C not permitted as dependence-type for this directive"
-msgstr ""
+msgstr "`SOURCE` 在这个指令中不能作为依赖类型，啦，杂鱼。"
 
 #: fortran/openmp.cc:2925
 #, gcc-internal-format, gfc-internal-format
 msgid "Duplicated clause with SOURCE dependence-type at %C"
-msgstr ""
+msgstr "在%C那里，有重复的条款和源依赖类型呀，这都不懂吗。"
 
 #: fortran/openmp.cc:2946
 #, gcc-internal-format
 msgid ""
 "%<source%> modifier with %<depend%> clause at %L deprecated since OpenMP "
 "5.2, use with %<doacross%>"
-msgstr ""
+msgstr "这个%<source%>修饰符和%<depend%>子句在%L处，自从OpenMP 5.2以来就过时了，美国啦，杂鱼。"
 
 #: fortran/openmp.cc:2957
 #, gcc-internal-format, gfc-internal-format
 msgid "SINK at %C not permitted as dependence-type for this directive"
-msgstr ""
+msgstr "SINK 在这个指令中不能被用作依赖类型，杂鱼。"
 
 #: fortran/openmp.cc:2968
 #, gcc-internal-format, gfc-internal-format
 msgid "ITERATOR may not be combined with SINK at %C"
-msgstr ""
+msgstr "迭代器不能与 SINK 结合使用哦，杂鱼。"
 
 #: fortran/openmp.cc:2974
 #, gcc-internal-format
 msgid ""
 "%<sink%> modifier with %<depend%> clause at %L deprecated since OpenMP 5.2, "
 "use with %<doacross%>"
-msgstr ""
+msgstr "在%L处使用%<sink%>修饰符和%<depend%>子句已经从OpenMP 5.2开始被弃用了哦，杂鱼。"
 
 #: fortran/openmp.cc:3004
 #, gcc-internal-format
 msgid "%<omp_all_memory%> used with DEPEND kind other than OUT or INOUT at %C"
-msgstr ""
+msgstr "使用 %<omp_all_memory%> 与除 OUT 或 INOUT 以外的 DEPEND 类型一起使用，在 %C处。这都不懂吗，杂鱼。"
 
 #: fortran/openmp.cc:3100
 #, gcc-internal-format
 msgid ""
 "%<ancestor%> device modifier not preceded by %<requires%> directive with "
 "%<reverse_offload%> clause at %C"
-msgstr ""
+msgstr "这个设备修饰符没有被 %<requires%> 指令提前，杂鱼。这都不懂吗。"
 
 #: fortran/openmp.cc:3125
 #, gcc-internal-format
 msgid ""
 "Expected integer expression or a single device-modifier %<device_num%> or "
 "%<ancestor%> at %C"
-msgstr ""
+msgstr "期望一个整数表达式，或者一个单独的设备修饰符 %<device_num%> 或 %<ance> 啦。这都不懂吗？"
 
 #: fortran/openmp.cc:3190
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected SEQ_CST, ACQUIRE or RELAXED at %C"
-msgstr ""
+msgstr "期望的是 SEQ_CST, ACQUIRE 或 RELAXED，结果却是别的，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:3546
 #, gcc-internal-format
 msgid ""
 "Specification of the list items as arguments to the modifiers at %L is "
 "deprecated; since OpenMP 5.2, use %<linear(%s : %s%s)%>"
-msgstr ""
+msgstr "在 %L 处的修饰符的参数列表项的规范已经过时了，杂鱼。"
 
 #: fortran/openmp.cc:3716
 #, gcc-internal-format
 msgid ""
 "The specification of modifiers without comma separators for the %<map%> "
 "clause at %C has been deprecated since OpenMP 5.2"
-msgstr ""
+msgstr "关于 %<map%> 子句 a 中没有逗号分隔符的修饰符的规范，这都不懂吗？"
 
 #: fortran/openmp.cc:4019
 #, gcc-internal-format
 msgid ""
 "Expected ORDER(CONCURRENT) at %C with optional %<reproducible%> or "
 "%<unconstrained%> modifier"
-msgstr ""
+msgstr "在 %C 地方，它期望的是 ORDER(CONCURRENT)，还有可选的 %<reproducible%> 或者 %<unconstrain> 呢，杂鱼。"
 
 #: fortran/openmp.cc:4127
 #, gcc-internal-format
 msgid ""
 "%<master%> affinity policy at %C deprecated since OpenMP 5.1, use "
 "%<primary%>"
-msgstr ""
+msgstr "`%<master%>` affinity 策略在 OpenMP 5.1 之后就已经被弃用了，你应该使用 `%<primary%>` 呢，杂鱼。"
 
 #: fortran/openmp.cc:4387
 #, gcc-internal-format
 msgid ""
 "%<to%> clause with %<declare target%> at %L deprecated since OpenMP 5.2, use"
 " %<enter%>"
-msgstr ""
+msgstr "%<to%> 子句和 %<declare target%> 在 %L 处，自 OpenMP 5.2 以来已被弃用，请使用 %<e> 吧，杂鱼。"
 
 #: fortran/openmp.cc:4537
 #, gcc-internal-format, gfc-internal-format
 msgid "Failed to match clause at %C"
-msgstr ""
+msgstr "在 %C 的处匹配失败啦，杂鱼。"
 
 #: fortran/openmp.cc:4899
 #, gcc-internal-format, gfc-internal-format
 msgid "ACC CACHE directive must be inside of loop %C"
-msgstr ""
+msgstr "`ACC CACHE` 指令必须在循环里面才行哦，杂鱼。"
 
 #: fortran/openmp.cc:4968
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Only the !$ACC ROUTINE form without list is allowed in interface block at %C"
-msgstr ""
+msgstr "接口块里，%C\" ms\" 地方，只允许是 !$ACC ROUTINE 的形式，不能有列表，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:5043
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Intrinsic symbol specified in !$ACC ROUTINE ( NAME ) at %C marked with "
 "incompatible GANG, WORKER, or VECTOR clause"
-msgstr ""
+msgstr "这个内建符号在 !$ACC ROUTINE ( NAME ) 的 %C 处被标记为不兼容啦，杂鱼。"
 
 #: fortran/openmp.cc:5051
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Intrinsic symbol specified in !$ACC ROUTINE ( NAME ) at %C marked with "
 "incompatible NOHOST clause"
-msgstr ""
+msgstr "在 !$ACC ROUTINE ( NAME ) 中指定了 %C 的内在符号，但是标记了不兼容，杂鱼。"
 
 #: fortran/openmp.cc:5072 fortran/openmp.cc:5100
 #, gcc-internal-format, gfc-internal-format
 msgid "!$ACC ROUTINE already applied at %C"
-msgstr ""
+msgstr "这个`$ACC`例程已经应用过了啦，杂鱼。"
 
 #: fortran/openmp.cc:5117
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "!$ACC ROUTINE with GANG, WORKER, or VECTOR clause is not permitted in PURE "
 "procedure at %C"
-msgstr ""
+msgstr "`$ACC ROUTINE` 加上 GANG、WORKER 或 VECTOR 子句在纯粹的流程中是不被允许的哦，杂鱼"
 
 #: fortran/openmp.cc:5499
 #, gcc-internal-format
 msgid ""
 "Expected IN, OUT, INOUT, INOUTSET or MUTEXINOUTSET followed by %<)%> at %C"
-msgstr ""
+msgstr "期望的是 IN, OUT, INOUT, INOUTSET 或 MUTEXINOUTSET 后面跟着 %<)%>，在 %C\" msgs\" 处，杂鱼。"
 
 #: fortran/openmp.cc:5513
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "The same depend object should be used as DEPOBJ argument at %L and as "
 "DESTROY argument at %L"
-msgstr ""
+msgstr "同样的depend对象，应该用作%L的DEPOBJ参数，以及作为DESTROY ar。这都不懂吗，杂鱼。"
 
 #: fortran/openmp.cc:5527
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected DEPEND, UPDATE, or DESTROY clause at %C"
-msgstr ""
+msgstr "期望在 %C处有 DEPEND, UPDATE 或 DESTROY 子句呢，杂鱼。"
 
 #: fortran/openmp.cc:5532
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "DEPEND clause at %L of OMP DEPOBJ construct shall not have dependence-type "
 "DEPOBJ"
-msgstr ""
+msgstr "%L处的OMP DEPOBJ构造的DEPEND子句，不应该具有DEPOB这种依赖类型哦，杂鱼"
 
 #: fortran/openmp.cc:5540
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "DEPEND clause at %L of OMP DEPOBJ construct shall have only a single locator"
-msgstr ""
+msgstr "OMP DEPOBJ 构造的 %L 位置的 DEPEND 子句，就应该只有一个定位器啦，杂鱼。"
 
 #: fortran/openmp.cc:5685
 #, gcc-internal-format, gfc-internal-format
 msgid "$OMP ERROR encountered at %L: %s"
-msgstr ""
+msgstr "`$OMP` 错误在 %L 处发生啦： %s"
 
 #: fortran/openmp.cc:5704
 #, gcc-internal-format, gfc-internal-format
 msgid "$OMP ERROR encountered at %L"
-msgstr ""
+msgstr "OMP错误在 %L 处被遇到啦，呢。"
 
 #: fortran/openmp.cc:5732
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected SEQ_CST, AQC_REL, RELEASE, or ACQUIRE at %C"
-msgstr ""
+msgstr "在 %C处，本该期望是 SEQ_CST, AQC_REL, RELEASE, 或者 ACQUIRE 呢，杂鱼。"
 
 #: fortran/openmp.cc:5741
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "List specified together with memory order clause in FLUSH directive at %C"
-msgstr ""
+msgstr "在FLUSH指令里，把列表和内存顺序子句放在一起，在%C\" msgst那里呢，杂鱼。"
 
 #: fortran/openmp.cc:6149 fortran/openmp.cc:13621
 #, gcc-internal-format, gfc-internal-format
 msgid "Redefinition of predefined %s !$OMP DECLARE REDUCTION at %L"
-msgstr ""
+msgstr "预定义 %s 的重新定义啦，在 %L 处发生！这都不懂吗，杂鱼。"
 
 #: fortran/openmp.cc:6153 fortran/openmp.cc:13625
 #, gcc-internal-format, gfc-internal-format
 msgid "Redefinition of predefined !$OMP DECLARE REDUCTION at %L"
-msgstr ""
+msgstr "预定义的 !$OMP DECLARE REDUCTION 被重新定义了，在 %L 处，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:6158
 #, gcc-internal-format, gfc-internal-format
 msgid "Redefinition of !$OMP DECLARE REDUCTION at %L"
-msgstr ""
+msgstr "对 !$OMP DECLARE REDUCTION 在 %L的重新定义啦，这都不懂吗？"
 
 #: fortran/openmp.cc:6160
 #, gcc-internal-format, gfc-internal-format
 msgid "Previous !$OMP DECLARE REDUCTION at %L"
-msgstr ""
+msgstr "上一个 !$OMP DECLARE REDUCTION 是在 %L 发生的呢，杂鱼。"
 
 #: fortran/openmp.cc:6217
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Only the !$OMP DECLARE TARGET form without clauses is allowed in interface "
 "block at %C"
-msgstr ""
+msgstr "接口块里只允许使用没有子句的 !$OMP DECLARE TARGET 形式啦，杂鱼。"
 
 #: fortran/openmp.cc:6262
 #, gcc-internal-format
 msgid ""
 "List item %qs at %L not appear in the %qs clause as it was previously "
 "specified in a GROUPPRIVATE directive"
-msgstr ""
+msgstr "列表项 %qs 在 %L 中没有出现，尽管它之前已经在 %qs 子句中指定过了呀"
 
 #: fortran/openmp.cc:6268
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variable at %L mentioned multiple times in clauses of the same OMP DECLARE "
 "TARGET directive"
-msgstr ""
+msgstr "变量在同一个 OMP DECLARE 的子句里被提到好几次啦，这都不懂吗"
 
 #: fortran/openmp.cc:6308
 #, gcc-internal-format
 msgid ""
 "List item %qs at %L set in previous OMP GROUPPRIVATE directive to the "
 "different DEVICE_TYPE %qs"
-msgstr ""
+msgstr "列表项 %qs 在之前的 OMP GROUPPRIVATE 指令中设置到不同的地方呢，杂鱼。"
 
 #: fortran/openmp.cc:6312 fortran/openmp.cc:7407 fortran/openmp.cc:7432
 #, gcc-internal-format
 msgid ""
 "List item %qs at %L set in previous OMP DECLARE TARGET directive to the "
 "different DEVICE_TYPE %qs"
-msgstr ""
+msgstr "列表项 %qs 在之前的 OMP DECLARE TARGET 指令中设置到了不同的地方呢，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:6319 fortran/openmp.cc:6382
 #, gcc-internal-format, gfc-internal-format
 msgid "DEVICE_TYPE must be ANY when used with INDIRECT at %L"
-msgstr ""
+msgstr "当用在 %L的地方时，DEVICE_TYPE 必须是 ANY 啦，杂鱼。"
 
 #: fortran/openmp.cc:6325
 #, gcc-internal-format
 msgid ""
 "List item %qs at %L set with NOHOST specified may not appear in a LINK "
 "clause"
-msgstr ""
+msgstr "列表项 %qs 在 %L 中被指定为 NOHOST 可能不能出现在链接部分里哦"
 
 #: fortran/openmp.cc:6333
 #, gcc-internal-format
 msgid ""
 "Common block %</%s/%> at %L not appear in the %qs clause as it was "
 "previously specified in a GROUPPRIVATE directive"
-msgstr ""
+msgstr "公共块 %</%s/%> 在 %L 中没有出现在 %qs 子句中，因为它之前是 sp 呀。"
 
 #: fortran/openmp.cc:6340
 #, gcc-internal-format
 msgid ""
 "Common block %</%s/%> at %L mentioned multiple times in clauses of the same "
 "OMP DECLARE TARGET directive"
-msgstr ""
+msgstr "公共块 %</%s/%> 在同一个 OMP 的子句中被提及了多次，杂鱼。"
 
 #: fortran/openmp.cc:6368
 #, gcc-internal-format
 msgid ""
 "Common block %</%s/%> at %L set in previous OMP GROUPPRIVATE directive to "
 "the different DEVICE_TYPE %qs"
-msgstr ""
+msgstr "公共块 %</%s/%> 在之前的 OMP GROUPPRIVATE 指令中被设置到了 di 里面啦，这都不懂吗？"
 
 #: fortran/openmp.cc:6373
 #, gcc-internal-format
 msgid ""
 "Common block %</%s/%> at %L set in previous OMP DECLARE TARGET directive to "
 "the different DEVICE_TYPE %qs"
-msgstr ""
+msgstr "公共块 %</%s/%> 在之前的 OMP DECLARE TARGET 指令中设置了 %L 呢，杂鱼。"
 
 #: fortran/openmp.cc:6387
 #, gcc-internal-format
 msgid ""
 "Common block %</%s/%> at %L set with NOHOST specified may not appear in a "
 "LINK clause"
-msgstr ""
+msgstr "公共块 %</%s/%> 在 %L 处被指定为 NOHOST 时，可能不会出现在 LINK c 中哦。这都不懂吗？"
 
 #: fortran/openmp.cc:6417
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "OMP DECLARE TARGET directive at %L with only DEVICE_TYPE or INDIRECT clauses"
 " is ignored"
-msgstr ""
+msgstr "OMP DECLARE TARGET 指令在 %L 处，只使用 DEVICE_TYPE 或 INDIRECT 子句是这样啦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:6558
 #, gcc-internal-format
 msgid ""
 "%<score%> cannot be specified in traits in the %qs trait-selector-set at %C"
-msgstr ""
+msgstr "`%<score%>` 这种东西，是不允许在 `traits` 里指定的，在 `%qs` 的 `trait-selector-set` 里，位于 `%C` 消息里面啦。这都不懂吗？"
 
 #: fortran/openmp.cc:7159
 #, gcc-internal-format
 msgid ""
 "%<default%> clause with metadirective at %L deprecated since OpenMP 5.2"
-msgstr ""
+msgstr "这个使用元指令的子句在OpenMP 5.2之后就已经被弃用了呢，杂鱼。"
 
 #: fortran/openmp.cc:7172
 #, gcc-internal-format
 msgid ""
 "too many %<otherwise%> or %<default%> clauses in %<metadirective%> at %C"
-msgstr ""
+msgstr "在%<metadirective%>里，%<otherwise%> 或 %<default%> 子句太多了哦，在%C那里，真是让人看不懂呢。"
 
 #: fortran/openmp.cc:7179
 #, gcc-internal-format
 msgid ""
 "%<otherwise%> or %<default%> clause must appear last in %<metadirective%> at"
 " %C"
-msgstr ""
+msgstr "%<otherwise%> 或 %<default%> 子句必须出现在 %<metadirective%> 的末尾哦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:7228
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "variant directive used in OMP BEGIN METADIRECTIVE at %C must have a "
 "corresponding end directive"
-msgstr ""
+msgstr "这个variant指令在OMP START METADIRECTIVE的%C处使用，必须有一个对应的，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:7395
 #, gcc-internal-format
 msgid ""
 "List item %qs at %L implies OMP DECLARE TARGET with the LOCAL clause, but it"
 " has been specified with a different clause before"
-msgstr ""
+msgstr "列表项 %qs 在 %L 处暗示了带有 LOCAL 子句的 OMP DECLARE TARGET，但是它呢"
 
 #: fortran/openmp.cc:7420
 #, gcc-internal-format
 msgid ""
 "List item %</%s/%> at %L implies OMP DECLARE TARGET with the LOCAL clause, "
 "but it has been specified with a different clause before"
-msgstr ""
+msgstr "列表项 %</%s/%> 在 %L 处暗示着带有 LOCAL 子句的 OMP DECLARE TARGET，但是…… 真是拿你没办法呢。"
 
 #: fortran/openmp.cc:7534 fortran/openmp.cc:7543 fortran/openmp.cc:7554
 #: fortran/openmp.cc:8140 fortran/openmp.cc:8156 fortran/openmp.cc:8165
 #, gcc-internal-format
 msgid "%<master%> construct at %C deprecated since OpenMP 5.1, use %<masked%>"
-msgstr ""
+msgstr "`%<master%>` 的构造在 OpenMP 5.1 之后就过时了，你应该使用 `%<masked%>` 啦，杂鱼。"
 
 #: fortran/openmp.cc:7580
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Program unit at %L has OpenMP device constructs/routines but does not set "
 "!$OMP REQUIRES %s but other program units do"
-msgstr ""
+msgstr "在%L这个程序单元里有OpenMP的设备构造/例程，但是你却没有设置 !$OMP 呀，这都不懂吗"
 
 #: fortran/openmp.cc:7623
 #, gcc-internal-format
 msgid ""
 "!$OMP REQUIRES clause %qs specified via module %qs use at %L comes after "
 "using a device construct/routine"
-msgstr ""
+msgstr "$OMP 要求通过模块 %qs 指定的条款，在 %L 之后才使用 a 呢，杂鱼。这都不懂吗。"
 
 #: fortran/openmp.cc:7627
 #, gcc-internal-format
 msgid ""
 "!$OMP REQUIRES clause %qs specified at %L comes after using a device "
 "construct/routine"
-msgstr ""
+msgstr "!$OMP 要求在 %L 指定的 %qs 子句，在你使用设备构造/r之后才出现，杂鱼。"
 
 #: fortran/openmp.cc:7650
 #, gcc-internal-format
@@ -38435,7 +38028,7 @@ msgid ""
 "!$OMP REQUIRES clause %<atomic_default_mem_order(%s)%> specified via module "
 "%qs use at %L overrides a previous %<atomic_default_mem_order(%s)%> (which "
 "might be through using a module)"
-msgstr ""
+msgstr "$OMP 要求通过模块 %qs 指定 %<atomic_default_mem_order(%s)%> 这个子句呢，杂鱼"
 
 #: fortran/openmp.cc:7655
 #, gcc-internal-format
@@ -38443,28 +38036,28 @@ msgid ""
 "!$OMP REQUIRES clause %<atomic_default_mem_order(%s)%> specified at %L "
 "overrides a previous %<atomic_default_mem_order(%s)%> (which might be "
 "through using a module)"
-msgstr ""
+msgstr "$OMP 要求指定了 %<atomic_default_mem_order(%s)%> 子句，而这会覆盖 %L 处的设置呢，杂鱼"
 
 #: fortran/openmp.cc:7666
 #, gcc-internal-format
 msgid ""
 "!$OMP REQUIRES clause %<atomic_default_mem_order(%s)%> specified via module "
 "%qs use at %L but same clause is not specified for the program unit"
-msgstr ""
+msgstr "$OMP 要求通过模块 %qs 指定 %<atomic_default_mem_order(%s)%> 子句呢，"
 
 #: fortran/openmp.cc:7671
 #, gcc-internal-format
 msgid ""
 "!$OMP REQUIRES clause %qs specified via module %qs use at %L but same clause"
 " is not specified for the program unit"
-msgstr ""
+msgstr "$OMP 要求指定通过模块 %qs 使用的条款在 %L 处，但是同样的条款是……这都不懂吗，杂鱼"
 
 #: fortran/openmp.cc:7786
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Expected ACQ_REL, ACQUIRE, RELAXED, RELEASE or SEQ_CST for "
 "ATOMIC_DEFAULT_MEM_ORDER clause at %C"
-msgstr ""
+msgstr "对于 `ATOMIC_DEFAULT_MEM_OR`，期望的是 `ACQ_REL`, `ACQUIRE`, `RELAXED`, `RELEASE` 或 `SEQ_"
 
 #: fortran/openmp.cc:7811
 #, gcc-internal-format, gfc-internal-format
@@ -38472,136 +38065,136 @@ msgid ""
 "Expected UNIFIED_ADDRESS, UNIFIED_SHARED_MEMORY, SELF_MAPS, "
 "DYNAMIC_ALLOCATORS, REVERSE_OFFLOAD, or ATOMIC_DEFAULT_MEM_ORDER clause at "
 "%L"
-msgstr ""
+msgstr "期望的是UNIFIED_ADDRESS, UNIFIED_SHARED_MEMORY, SELF_MAPS, DYNAMIC_ALLOCATORS，杂鱼，这都不懂吗"
 
 #: fortran/openmp.cc:8217 fortran/openmp.cc:8220 fortran/openmp.cc:8223
 #, gcc-internal-format, gfc-internal-format
 msgid "!$OMP ATOMIC at %L with %s clause is incompatible with READ or WRITE"
-msgstr ""
+msgstr "$OMP 原子操作在 %L 处使用 %s 子句与 READ 或 WRITE 不兼容哦，杂鱼。"
 
 #: fortran/openmp.cc:8227
 #, gcc-internal-format, gfc-internal-format
 msgid "!$OMP ATOMIC at %L with %s clause requires %s clause"
-msgstr ""
+msgstr "这个`$OMP ATOMIC`在`%L`处使用`%s`子句，要求`%s`子句呢，杂鱼。"
 
 #: fortran/openmp.cc:8257
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "!$OMP ATOMIC WRITE at %L incompatible with ACQUIRES clause implicitly "
 "provided by a REQUIRES directive"
-msgstr ""
+msgstr "`!$OMP ATOMIC WRITE` 在 `%L` 处与隐式提供的 `ACQUIRES` 子句不兼容呀，杂鱼。这都不懂吗。"
 
 #: fortran/openmp.cc:8268
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "!$OMP ATOMIC READ at %L incompatible with RELEASE clause implicitly provided"
 " by a REQUIRES directive"
-msgstr ""
+msgstr "`$OMP` 的原子读取在 %L 处与隐式提供的 `RELEASE` 子句不兼容啦，这都不懂吗？"
 
 #: fortran/openmp.cc:8286
 #, gcc-internal-format, gfc-internal-format
 msgid "!$OMP ATOMIC READ at %L incompatible with RELEASE clause"
-msgstr ""
+msgstr "!$OMP 原子读取在 %L 处与 RELEASE 子句不兼容哦，杂鱼。"
 
 #: fortran/openmp.cc:8296
 #, gcc-internal-format, gfc-internal-format
 msgid "!$OMP ATOMIC WRITE at %L incompatible with ACQUIRE clause"
-msgstr ""
+msgstr "`$OMP ATOMIC WRITE 在 %L 处与 ACQUIRE 子句不兼容` 啦，杂鱼。这都不懂吗。"
 
 #: fortran/openmp.cc:8705
 #, gcc-internal-format
 msgid ""
 "Unexpected function-result variable %qs at %L in declarative !$OMP ALLOCATE"
-msgstr ""
+msgstr "这个声明式的 !$OMP ALLOCATE\" 消息里，在 %L 处，遇到了一个意想不到的函数结果变量 %qs 呢，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:8717
 #, gcc-internal-format
 msgid ""
 "Argument %qs at %L to declarative !$OMP ALLOCATE directive must be a "
 "variable"
-msgstr ""
+msgstr "参数 %qs 在 %L 处的声明 !$OMP ALLOCATE 指令必须是一个变量哦，杂鱼。"
 
 #: fortran/openmp.cc:8724
 #, gcc-internal-format
 msgid ""
 "Argument %qs at %L to declarative !$OMP ALLOCATE shall be in the same scope "
 "as the variable declaration"
-msgstr ""
+msgstr "参数 %qs 在 %L 中声明 !$OMP ALLOCATE 必须与 t 在同一作用域内哦，杂鱼"
 
 #: fortran/openmp.cc:8737
 #, gcc-internal-format
 msgid ""
 "Unexpected coarray argument %qs as argument at %L to declarative !$OMP "
 "ALLOCATE"
-msgstr ""
+msgstr "意外的 coarray 参数 %qs 作为参数在 %L 的声明中，怎么会这样呢，杂鱼"
 
 #: fortran/openmp.cc:8745
 #, gcc-internal-format
 msgid "Duplicated common block %</%s/%> in !$OMP ALLOCATE at %L"
-msgstr ""
+msgstr "在 !$OMP ALLOCATE 的 %L 中，发现重复的公共块 %</%s/%> 啦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:8752
 #, gcc-internal-format
 msgid "Duplicated variable %qs in !$OMP ALLOCATE at %L"
-msgstr ""
+msgstr "变量 %qs 重复了呀，在 !$OMP ALLOCATE 处，这都不懂吗？"
 
 #: fortran/openmp.cc:8763
 #, gcc-internal-format
 msgid "Sorry, EQUIVALENCE object %qs not supported with !$OMP ALLOCATE at %L"
-msgstr ""
+msgstr "抱歉啦，杂鱼。这个等价对象%qs，不支持用 !$OMP ALLOCATE 在 %L这种地方哦。这都不懂吗？"
 
 #: fortran/openmp.cc:8772
 #, gcc-internal-format
 msgid ""
 "Sorry, Cray pointers and pointees such as %qs are not supported with !$OMP "
 "ALLOCATE at %L"
-msgstr ""
+msgstr "抱歉啦，像 %qs 这样的 Cray 指针和指向符，不支持 !$OMP ALLOC 呢。这都不懂吗？"
 
 #: fortran/openmp.cc:8781
 #, gcc-internal-format
 msgid ""
 "Unexpected allocatable variable %qs at %L in declarative !$OMP ALLOCATE "
 "directive"
-msgstr ""
+msgstr "这个声明里，居然出现了一个意料之外的可分配变量 %qs 在 %L 呢，真是拿你没办法啦！"
 
 #: fortran/openmp.cc:8786
 #, gcc-internal-format
 msgid ""
 "Unexpected pointer variable %qs at %L in declarative !$OMP ALLOCATE "
 "directive"
-msgstr ""
+msgstr "在声明性 `$OMP ALLOCATE` 指令中，发现了一个意料之外的指针变量 `%qs` 在 `%L` 处，真是让人费解呢，杂鱼。"
 
 #: fortran/openmp.cc:8813
 #, gcc-internal-format
 msgid ""
 "An ALLOCATOR clause is required as the list item %<%s%s%s%> at %L has the "
 "SAVE attribute"
-msgstr ""
+msgstr "在 %L 处的列表项 %<%s%s%s%> 有 SAVE a 的情况下，你需要一个 ALLOCATOR 子句啦，这都不懂吗？"
 
 #: fortran/openmp.cc:8818
 #, gcc-internal-format
 msgid ""
 "Predefined allocator required in ALLOCATOR clause at %L as the list item "
 "%<%s%s%s%> at %L has the SAVE attribute"
-msgstr ""
+msgstr "在 %L 处的 ALLOCATOR 子句中，需要一个预定义的分配器，作为列表项 %<%s%s% 呢，杂鱼。"
 
 #: fortran/openmp.cc:8838
 #, gcc-internal-format
 msgid ""
 "Predefined allocator %qs in ALLOCATOR clause at %L, used for list item "
 "%<%s%s%s%> at %L, may only be used for local static variables"
-msgstr ""
+msgstr "预定义的分配器 %qs 在 %L 的 ALLOCATOR 子句里，是用来给列表项 %<%s%s%s% 的哦。这都不懂吗？"
 
 #: fortran/openmp.cc:8856 fortran/openmp.cc:9430
 #, gcc-internal-format
 msgid ""
 "Expected integer expression of the %<omp_allocator_handle_kind%> kind at %L"
-msgstr ""
+msgstr "期望在 %L 处得到 %<omp_allocator_handle_kind%> 类型的整数表达式啊，杂鱼。"
 
 #: fortran/openmp.cc:8908
 #, gcc-internal-format, gfc-internal-format
 msgid "ORDERED clause parameter is less than COLLAPSE at %L"
-msgstr ""
+msgstr "`ORDERED` 子句的参数比 `COLLAPSE` 小了呀，在 %L 处，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:8918 fortran/openmp.cc:8929 fortran/resolve.cc:12828
 #: fortran/resolve.cc:14446
@@ -38614,13 +38207,13 @@ msgstr "%L处的 IF 分句需要一个标量 LOGICAL 表达式吧"
 msgid ""
 "IF clause without modifier at %L used together with IF clauses with "
 "modifiers"
-msgstr ""
+msgstr "在%L处没有修饰符的if语句，和带有修饰符的if语句一起使用呢，杂鱼。"
 
 #: fortran/openmp.cc:9058
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "IF clause modifier %s at %L not appropriate for the current OpenMP construct"
-msgstr ""
+msgstr "这个IF子句修饰符%s在%L处，不适合当前的OpenMP结构啦，杂鱼。"
 
 #: fortran/openmp.cc:9110
 #, gcc-internal-format, gfc-internal-format
@@ -38631,75 +38224,75 @@ msgstr "%L处的 SCHEDULE 分句的 chunk_size 需要一个标量 INTEGER 表达
 #: fortran/openmp.cc:9122
 #, gcc-internal-format, gfc-internal-format
 msgid "Both MONOTONIC and NONMONOTONIC schedule modifiers specified at %L"
-msgstr ""
+msgstr "MONOTONIC 和 NONMONOTONIC 的调度修饰符都指定在 %L里哦 杂鱼"
 
 #: fortran/openmp.cc:9125
 #, gcc-internal-format, gfc-internal-format
 msgid "NONMONOTONIC schedule modifier specified with ORDERED clause at %L"
-msgstr ""
+msgstr "非单调的调度修饰符用 ORDERED 子句指定在 %L里呀，这都不懂吗？"
 
 #: fortran/openmp.cc:9134
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "DEPOBJ in DEPOBJ construct at %L shall be a scalar integer of "
 "OMP_DEPEND_KIND kind"
-msgstr ""
+msgstr "在 DEPOBJ 构造的 %L 位置上，DEPOBJ 必须是一个 OMP_DEPEND_KIND ki 的标量整数哦。这都不懂吗，杂鱼。"
 
 #: fortran/openmp.cc:9202
 #, gcc-internal-format
 msgid "Clause for object %qs at %L is ignored as it is a parameter"
-msgstr ""
+msgstr "对象 %qs 在 %L 处的子句被忽略了，因为它只是一个参数啦。这都不懂吗？"
 
 #: fortran/openmp.cc:9216
 #, gcc-internal-format
 msgid ""
 "%<inscan%> REDUCTION clause on construct other than DO, SIMD, DO SIMD, "
 "PARALLEL DO, PARALLEL DO SIMD at %L"
-msgstr ""
+msgstr "%<inscan%> 在DO、SIMD、DO SIMD、PARALLEL之外的构造上出现了归约子句啦。这都不懂吗？"
 
 #: fortran/openmp.cc:9220
 #, gcc-internal-format
 msgid ""
 "ORDERED clause specified together with %<inscan%> REDUCTION clause at %L"
-msgstr ""
+msgstr "ORDERED 子句和 %<inscan%> REDUCTION 子句一起指定在 %L 处呢，杂鱼。"
 
 #: fortran/openmp.cc:9223
 #, gcc-internal-format
 msgid ""
 "SCHEDULE clause specified together with %<inscan%> REDUCTION clause at %L"
-msgstr ""
+msgstr "SCHEDULE 子句和 %<inscan%> REDUCTION 子句在 %L 处一起指定的呢，杂鱼。"
 
 #: fortran/openmp.cc:9296
 #, gcc-internal-format
 msgid "Symbol %qs has mixed component and non-component accesses at %L"
-msgstr ""
+msgstr "符号 %qs 在 %L中有混合的组件和非组件的访问啦，这都不懂吗"
 
 #: fortran/openmp.cc:9319
 #, gcc-internal-format
 msgid ""
 "DEPEND clause at %L requires action clause with %<targetsync%> interop-type"
-msgstr ""
+msgstr "DEPEND子句在%L处需要一个带有%<targetsync%>交互类型的动作子句啦，这都不懂吗"
 
 #: fortran/openmp.cc:9326
 #, gcc-internal-format
 msgid ""
 "DEPEND clause at %L requires %<targetsync%> interop-type, lacking it for %qs"
 " at %L"
-msgstr ""
+msgstr "%L处的DEPEND子句需要%<targetsync%>的interop-type，但对于%qs来说缺少了它呢。这都不懂吗？"
 
 #: fortran/openmp.cc:9341
 #, gcc-internal-format
 msgid ""
 "%qs at %L in %qs clause must be a scalar integer variable of "
 "%<omp_interop_kind%> kind"
-msgstr ""
+msgstr "`%qs` 在 `%L` 的 `%qs` 子句中，必须是类型为 `%<omp_interop_kind%` 的标量整数变量啦，这都不懂吗？"
 
 #: fortran/openmp.cc:9513 fortran/trans-openmp.cc:8531
 #, gcc-internal-format
 msgid ""
 "%qs specified in %<allocate%> clause at %L but not in an explicit "
 "privatization clause"
-msgstr ""
+msgstr "%qs 在 %<allocate%> 子句里指定了在 %L 处，但是没有进行显式的私有化呢"
 
 #: fortran/openmp.cc:9525
 #, gcc-internal-format
@@ -38707,14 +38300,14 @@ msgid ""
 "The use of one or more %<allocate%> directives with an associated "
 "%<allocate%> statement at %L is deprecated since OpenMP 5.2, use an "
 "%<allocators%> directive"
-msgstr ""
+msgstr "使用一个或多个 %<allocate%> 指令以及相关的 %<allocate%> s，这都不懂吗，杂鱼"
 
 #: fortran/openmp.cc:9561
 #, gcc-internal-format
 msgid ""
 "%qs specified in %<allocate%> at %L but not in the associated ALLOCATE "
 "statement"
-msgstr ""
+msgstr "%qs 在 %<allocate%> 处被指定了，但在相关的 ALLOCATE 语句中却没有呢，杂鱼。"
 
 #: fortran/openmp.cc:9595
 #, gcc-internal-format
@@ -38722,222 +38315,222 @@ msgid ""
 "%qs listed in %<allocate%> statement at %L but it is neither explicitly in "
 "listed in the %<!$OMP ALLOCATE%> directive nor exists a directive without "
 "argument list"
-msgstr ""
+msgstr "%qs 在 %<allocate%> 语句中被列出在 %L 处，但它在列表中并不明确哦"
 
 #: fortran/openmp.cc:9606
 #, gcc-internal-format
 msgid ""
 "Unexpected coarray %qs in %<allocate%> at %L, implicitly listed in %<!$OMP "
 "ALLOCATE%> at %L"
-msgstr ""
+msgstr "意外的 coarray %qs 在 %<allocate%> 处，也就是在 %L，它在 %<!$OMP ALLOC 中被隐式地列出来了，真是拿你没办法呢"
 
 #: fortran/openmp.cc:9631
 #, gcc-internal-format
 msgid ""
 "ALLOCATORS directive at %L inside a target region must specify an ALLOCATOR "
 "modifier for %qs"
-msgstr ""
+msgstr "在目标区域 %L 里的 ALLOCATORS 指令，必须指定一个 ALLOCATOR 模式才行哦，杂鱼。"
 
 #: fortran/openmp.cc:9635
 #, gcc-internal-format
 msgid ""
 "ALLOCATE directive at %L inside a target region must specify an ALLOCATOR "
 "clause for %qs"
-msgstr ""
+msgstr "在目标区域的 %L 处，`ALLOCATE` 指令必须指定一个 ALLOCATOR 子句哦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:9639
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "ALLOCATE directive at %L inside a target region must specify an ALLOCATOR "
 "clause"
-msgstr ""
+msgstr "在目标区域的%L处，ALLOCATE指令必须指定一个ALLOCATOR子句哦，杂鱼。"
 
 #: fortran/openmp.cc:9742
 #, gcc-internal-format
 msgid ""
 "%qs in ALIGNED clause must be POINTER, ALLOCATABLE, Cray pointer or C_PTR at"
 " %L"
-msgstr ""
+msgstr "`%qs` 在 `ALIGNED` 子句里，必须是 POINTER、ALLOCATABLE、Cray pointer 或者 C_PTR 啦，在 %L 处哦。这都不懂吗？"
 
 #: fortran/openmp.cc:9808
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Dependence-type SINK used together with SOURCE on the same construct at %L"
-msgstr ""
+msgstr "这个依赖类型 SINK 和 SOURCE 在同一个结构体上一起使用，在 %L 消息里啦，这都不懂吗。"
 
 #: fortran/openmp.cc:9824
 #, gcc-internal-format
 msgid "omp_cur_iteration at %L requires %<-1%> as logical offset"
-msgstr ""
+msgstr "`omp_cur_iteration` 在 `%L` 处需要 `%<-1%>` 作为逻辑偏移量啊，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:9834
 #, gcc-internal-format
 msgid ""
 "Locator %qs at %L in DEPEND clause of depobj type shall be a scalar integer "
 "of OMP_DEPEND_KIND kind"
-msgstr ""
+msgstr "Locator %qs 在 depobj 类型 DEPEND 子句中的 %L 处，必须是一个 O 的标量整数啦，这都不懂吗"
 
 #: fortran/openmp.cc:9845
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Locator at %L in DEPEND clause of depobj type shall be a scalar integer of "
 "OMP_DEPEND_KIND kind"
-msgstr ""
+msgstr "在 depobj 类型中 DEPEND 子句里的 %L 位置，必须是 OMP_D 的一个标量整数哦。这都不懂吗？"
 
 #: fortran/openmp.cc:9896
 #, gcc-internal-format
 msgid ""
 "%qs argument to MAP clause at %L must not be a device-local variable, "
 "including GROUPPRIVATE"
-msgstr ""
+msgstr "%L处的MAP子句的%qs参数，绝不能是设备本地变量，这都不懂吗，杂鱼"
 
 #: fortran/openmp.cc:9939 fortran/openmp.cc:9957
 #, gcc-internal-format
 msgid "%qs in %s clause at %L is not a proper array section"
-msgstr ""
+msgstr "%qs 在 %s 子句中的 %L 不是一个合法的数组部分啦"
 
 #: fortran/openmp.cc:10027
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "TARGET%s with map-type other than TO, FROM, TOFROM, or ALLOC on MAP clause "
 "at %L"
-msgstr ""
+msgstr "TARGET%s 在 MAP 子句 %L 中，你用的映射类型不是 TO, FROM, TOFROM 或者 ALLOC 啦，这都不懂吗！"
 
 #: fortran/openmp.cc:10058
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "TARGET ENTER DATA with map-type other than TO, TOFROM or ALLOC on MAP clause"
 " at %L"
-msgstr ""
+msgstr "在MAP子句中，你给TARGET输入的数据的map-type不是TO、TOFROM或者ALLOC，这都不懂吗？"
 
 #: fortran/openmp.cc:10087
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "TARGET EXIT DATA with map-type other than FROM, TOFROM, RELEASE, or DELETE "
 "on MAP clause at %L"
-msgstr ""
+msgstr "目标退出数据，除了在MA上是FROM、TOFROM、RELEASE或DELETE之外的映射类型呢"
 
 #: fortran/openmp.cc:10130
 #, gcc-internal-format, gfc-internal-format
 msgid "Non-C_PTR type argument at %L is deprecated, use HAS_DEVICE_ADDR"
-msgstr ""
+msgstr "参数在 %L 处的类型不是 C_PTR，这已经被弃用了哦，杂鱼。请使用 HAS_DEVICE_ADDR 嘛。"
 
 #: fortran/openmp.cc:10159
 #, gcc-internal-format, gfc-internal-format
 msgid "Non-C_PTR type argument at %L is deprecated, use USE_DEVICE_ADDR"
-msgstr ""
+msgstr "参数 %L 的类型不是 C_PTR，已经被弃用啦，杂鱼，应该使用 USE_DEVICE_ADDR 呢"
 
 #: fortran/openmp.cc:10185
 #, gcc-internal-format
 msgid ""
 "Memspace %qs at %L in USES_ALLOCATORS must be a predefined memory space"
-msgstr ""
+msgstr "内存空间 %qs 在 USES_ALLOCATORS 中的 %L 必须是一个预定义的内存空间呢，杂鱼"
 
 #: fortran/openmp.cc:10193
 #, gcc-internal-format
 msgid ""
 "Allocator %qs at %L in USES_ALLOCATORS must be a scalar integer of kind "
 "%<omp_allocator_handle_kind%>"
-msgstr ""
+msgstr "`USES_ALLOCATORS` 里 %L 处的 Allocator %qs 必须是一个 %<omp_al 的标量整数啦，这都不懂吗？"
 
 #: fortran/openmp.cc:10202
 #, gcc-internal-format
 msgid ""
 "Allocator %qs at %L in USES_ALLOCATORS must either a variable or a "
 "predefined allocator"
-msgstr ""
+msgstr "分配器 %qs 在 USES_ALLOCATORS 中的 %L 地方，必须是一个变量或者一个预定义的别名啦，这都不懂吗？"
 
 #: fortran/openmp.cc:10207
 #, gcc-internal-format
 msgid ""
 "A memory space or traits array may not be specified for predefined allocator"
 " %qs at %L"
-msgstr ""
+msgstr "对于预定义的分配器%qs，你可能没有指定内存空间或特性数组呢。这都不懂吗，杂鱼。"
 
 #: fortran/openmp.cc:10218
 #, gcc-internal-format
 msgid ""
 "Traits array %qs in USES_ALLOCATORS %L must be a one-dimensional named "
 "constant array of type %<omp_alloctrait%>"
-msgstr ""
+msgstr "Traits 数组 %qs 在 USES_ALLOCATORS %L 里，必须是一个一维命名常量啦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:10332
 #, gcc-internal-format
 msgid ""
 "Sorry, list item %qs at %L with allocatable components is not yet supported "
 "in %s clause"
-msgstr ""
+msgstr "抱歉啦，列表项 %qs 在 %L 带有可分配组件的功能，在 % 里面还没有被支持哦。这都不懂吗？"
 
 #: fortran/openmp.cc:10338
 #, gcc-internal-format
 msgid ""
 "Polymorphic list item %qs at %L in %s clause has unspecified behavior and "
 "unsupported"
-msgstr ""
+msgstr "多态列表项 %qs 在 %L 的 %s 子句里，行为是不确定的，而且没有支持哦，杂鱼。"
 
 #: fortran/openmp.cc:10370
 #, gcc-internal-format, gfc-internal-format
 msgid "Only DEFAULT permitted as reduction-modifier in REDUCTION clause at %L"
-msgstr ""
+msgstr "在 REDUCTION 子句中，只有 DEFAULT 才被允许作为归约修饰符啦，杂鱼。"
 
 #: fortran/openmp.cc:10463
 #, gcc-internal-format, gfc-internal-format
 msgid "!$OMP DECLARE REDUCTION %s not found for type %s at %L"
-msgstr ""
+msgstr "在OpenMP中，找不到类型%s的归约变量%s，这都不懂吗，杂鱼？"
 
 #: fortran/openmp.cc:10491
 #, gcc-internal-format, gfc-internal-format
 msgid "LINEAR clause modifier used on DO or SIMD construct at %L"
-msgstr ""
+msgstr "`LINEAR` 语句修饰符被用在了 `DO` 或 `SIMD` 构造上，位置在 %L啦。"
 
 #: fortran/openmp.cc:10497
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "LINEAR clause modifier other than VAL used on DO or SIMD construct at %L"
-msgstr ""
+msgstr "除了VAL之外的LINEAR子句修饰符被用在了DO或SIMD结构上，在%L那里啦，这都不懂吗"
 
 #: fortran/openmp.cc:10632
 #, gcc-internal-format, gfc-internal-format
 msgid "NUM_TEAMS lower bound at %L larger than upper bound at %L"
-msgstr ""
+msgstr "`NUM_TEAMS` 的下界在 %L 处比上界在 %L 处还要大呢，杂鱼。"
 
 #: fortran/openmp.cc:10748
 #, gcc-internal-format
 msgid ""
 "%qs at %L should be a scalar of type integer(kind=omp_event_handle_kind)"
-msgstr ""
+msgstr "%qs 在 %L 处应该是一个整数类型（kind=omp_event_handle_kind）的标量，这都不懂吗？"
 
 #: fortran/openmp.cc:10761
 #, gcc-internal-format
 msgid ""
 "%<DETACH%> clause at %L must not be used together with %<MERGEABLE%> clause"
-msgstr ""
+msgstr "在 %L 处的 %<DETACH%> 子句不能与 %<MERGEABLE%> 子句一起使用哦，杂鱼。"
 
 #: fortran/openmp.cc:10768
 #, gcc-internal-format
 msgid "%<host_data%> construct at %L requires %<use_device%> clause"
-msgstr ""
+msgstr "%<host_data%> 的构造在 %L 处需要 %<use_device%> 子句啦，杂鱼。"
 
 #: fortran/openmp.cc:10922
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected IF at %L in atomic compare capture"
-msgstr ""
+msgstr "在`atomic compare capture`的``里，本该期望一个`if`，杂鱼，这都不懂吗"
 
 #: fortran/openmp.cc:10930
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected ELSE at %L in atomic compare capture"
-msgstr ""
+msgstr "在原子比较捕获中，期望找到一个 ELSE 呢，杂鱼。"
 
 #: fortran/openmp.cc:11042
 #, gcc-internal-format
 msgid ""
 "Expected %<==%>, %<.EQ.%> or %<.EQV.%> atomic comparison expression at %L"
-msgstr ""
+msgstr "期望在 %L\" msgst 处有一个原子的比较表达式，比如 %<==%>, %<.EQ.%> 或 %<.EQV.%> 呢，杂鱼。"
 
 #: fortran/openmp.cc:11048
 #, gcc-internal-format, gfc-internal-format
 msgid "Expected scalar intrinsic variable at %L in atomic comparison"
-msgstr ""
+msgstr "在原子比较的时候，期望在 %L 处有一个标量内在变量呢，杂鱼。"
 
 #: fortran/openmp.cc:11064
 #, gcc-internal-format, gfc-internal-format
@@ -38950,7 +38543,7 @@ msgstr "%L处 !$OMP ATOMIC 语句必须设定一个内建类型的标量值吧"
 msgid ""
 "!$OMP ATOMIC UPDATE at %L with FAIL clause requires either the COMPARE "
 "clause or using the intrinsic MIN/MAX procedure"
-msgstr ""
+msgstr "`!$OMP ATOMIC UPDATE` 在 `%L` 处带有 `FAIL` 子句，需要 `COMPARE` 子句或者…… 真是拿你没办法呢，杂鱼。"
 
 #: fortran/openmp.cc:11249
 #, gcc-internal-format, gfc-internal-format
@@ -39002,116 +38595,116 @@ msgstr "%L处 !$OMP ATOMIC 赋值的右手边必须有一个运算符或内建�
 msgid ""
 "With INSCAN at %L, expected loop body with !$OMP SCAN between two structured"
 " block sequences"
-msgstr ""
+msgstr "带有 INSCAN 在 %L 处，期望的是两个结构化块之间的 !$OMP SCAN 循环体呢，杂鱼。"
 
 #: fortran/openmp.cc:11503
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "!$OMP SCAN at %L with zero executable statements in preceding structured "
 "block sequence"
-msgstr ""
+msgstr "OpenMP 扫描在 %L 处，前面的结构化块 s 里根本就没有可执行语句呢。真是拿你没办法呀。"
 
 #: fortran/openmp.cc:11510
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "!$OMP SCAN at %L with zero executable statements in succeeding structured "
 "block sequence"
-msgstr ""
+msgstr "在 %L 处进行$OMP扫描，后面的结构化代码块里连个可执行语句都没有呢，杂鱼。"
 
 #: fortran/openmp.cc:11726
 #, gcc-internal-format, gfc-internal-format
 msgid "%s cannot contain loop in intervening code at %L"
-msgstr ""
+msgstr "%s 在中间的代码里不能包含循环呀，在%L那里呢，杂鱼"
 
 #: fortran/openmp.cc:11747 fortran/openmp.cc:11780
 #, gcc-internal-format, gfc-internal-format
 msgid "%s cannot contain OpenMP API call in intervening code at %L"
-msgstr ""
+msgstr "%s 在中间的代码里不能包含OpenMP API调用哦，杂鱼。"
 
 #: fortran/openmp.cc:11757
 #, gcc-internal-format, gfc-internal-format
 msgid "%s cannot contain OpenMP directive in intervening code at %L"
-msgstr ""
+msgstr "%s 在中间代码中不能包含 OpenMP 指令，在 %L呀。"
 
 #: fortran/openmp.cc:12303
 #, gcc-internal-format, gfc-internal-format
 msgid "SIZES clause is required on !$OMP TILE construct at %L"
-msgstr ""
+msgstr "`$OMP TILE` 构造上，必须有 `SIZES` 子句才行哦，杂鱼。"
 
 #: fortran/openmp.cc:12346
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Generated loop of UNROLL construct at %L without PARTIAL clause does not "
 "have canonical form"
-msgstr ""
+msgstr "在%L处生成的UNROLL构造的循环没有PARTIAL子句，缺少ca呢，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:12353
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "UNROLL construct at %L with PARTIAL clause generates just one loop with "
 "canonical form but %d loops are needed"
-msgstr ""
+msgstr "`%L` 处的 UNROLL 构造加上 PARTIAL 子句，只会生成一个 canonica 循环而已啦，这都不懂吗？"
 
 #: fortran/openmp.cc:12368
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "TILE construct at %L generates %d loops with canonical form but %d loops are"
 " needed"
-msgstr ""
+msgstr "TILE 构造在 %L 生成了"
 
 #: fortran/openmp.cc:12379
 #, gcc-internal-format
 msgid "Imperfectly nested loop using generated loops"
-msgstr ""
+msgstr "使用了生成循环的不完美嵌套循环呢，杂鱼。"
 
 #: fortran/openmp.cc:12439
 #, gcc-internal-format, gfc-internal-format
 msgid "%s loop start expression not in canonical form at %L"
-msgstr ""
+msgstr "循环起始表达式不在规范形式中，在 %L啦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:12446
 #, gcc-internal-format, gfc-internal-format
 msgid "%s loop start expression at %L uses variable bound in intervening code"
-msgstr ""
+msgstr "%s 循环起始表达式在 %L 使用了中间代码中的变量绑定，这都不懂吗"
 
 #: fortran/openmp.cc:12462
 #, gcc-internal-format, gfc-internal-format
 msgid "%s loop end expression at %L uses variable bound in intervening code"
-msgstr ""
+msgstr "%s 的循环结束表达式在 %L 使用了中间代码中的变量绑定啦，这都不懂吗"
 
 #: fortran/openmp.cc:12475
 #, gcc-internal-format, gfc-internal-format
 msgid "%s loop increment not in canonical form at %L"
-msgstr ""
+msgstr "%s 循环的递增不是规范形式，在 %L处哦"
 
 #: fortran/openmp.cc:12482
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "%s loop increment expression at %L uses variable bound in intervening code"
-msgstr ""
+msgstr "`%s` 循环增量表达式在 `%L` 处使用了中间代码中的变量绑定呢，杂鱼"
 
 #: fortran/openmp.cc:12493
 #, gcc-internal-format
 msgid "Non-rectangular loops from generated loops unsupported"
-msgstr ""
+msgstr "从生成循环中产生的非矩形循环不支持啦，杂鱼。"
 
 #: fortran/openmp.cc:12529
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "%s inner loops must be perfectly nested with REDUCTION INSCAN clause at %L"
-msgstr ""
+msgstr "%s 的内层循环必须和 %L\" msgs 中的 REDUCTION INSCAN 子句完美嵌套呢，杂鱼。"
 
 #: fortran/openmp.cc:12940 fortran/openmp.cc:12953
 #, gcc-internal-format, gfc-internal-format
 msgid "The %s directive cannot be specified within a %s region at %L"
-msgstr ""
+msgstr "`%s` 指令不能在 `%s` 区域内指定，在 `%L` 地方，杂鱼。"
 
 #: fortran/openmp.cc:13047
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Tiled loop cannot be parallelized across gangs, workers and vectors at the "
 "same time at %L"
-msgstr ""
+msgstr "这种分块循环不能同时在帮派、工人以及向量之间并行化呢，杂鱼。"
 
 #: fortran/openmp.cc:13320
 #, gcc-internal-format, gfc-internal-format
@@ -39119,115 +38712,115 @@ msgid ""
 "!$OMP TARGET region at %L with a nested TEAMS at %L may not contain any "
 "other statement, declaration or directive outside of the single TEAMS "
 "construct"
-msgstr ""
+msgstr "$OMP TARGET区域在%L处与嵌套的TEAMS在%L处可能不包含其他st，杂鱼。"
 
 #: fortran/openmp.cc:13324
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "!$OMP TARGET region at %L with a nested TEAMS may not contain any other "
 "statement, declaration or directive outside of the single TEAMS construct"
-msgstr ""
+msgstr "OpenMP目标区域在嵌套的TEAMS下，可不包含任何其他语句哦，"
 
 #: fortran/openmp.cc:13342
 #, gcc-internal-format
 msgid ""
 "%<OMP DISPATCH%> directive at %L must be followed by a procedure call with "
 "optional assignment"
-msgstr ""
+msgstr "`%<OMP DISPATCH%>` 指令在 `%L` 后面，必须跟着一个带选项的程序调用才行哦，杂鱼。"
 
 #: fortran/openmp.cc:13349
 #, gcc-internal-format
 msgid ""
 "%<OMP DISPATCH%> directive at %L cannot be followed by a procedure pointer"
-msgstr ""
+msgstr "`%<OMP DISPATCH%> 指令在 %L 处不能被一个过程指针跟在后面啦，杂鱼`"
 
 #: fortran/openmp.cc:13444
 #, gcc-internal-format, gfc-internal-format
 msgid "OMP TARGET UPDATE at %L requires at least one TO or FROM clause"
-msgstr ""
+msgstr "OMP目标更新在 %L 处，需要至少一个 TO 或 FROM 子句，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:13458
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "OMP CRITICAL at %L with HINT clause requires a NAME, except when "
 "omp_sync_hint_none is used"
-msgstr ""
+msgstr "OMP CRITICAL 在 %L 处，带有 HINT 子句需要一个 NAME，除非是 omp_sync_hint_n 啦，这都不懂吗？"
 
 #: fortran/openmp.cc:13464
 #, gcc-internal-format
 msgid ""
 "Unexpected !$OMP SCAN at %L outside loop construct with %<inscan%> REDUCTION"
 " clause"
-msgstr ""
+msgstr "这个$OMP扫描是意外的啦，杂鱼。在循环结构之外，居然有$\text{REDUCTION cla}$呢，这都不懂吗？"
 
 #: fortran/openmp.cc:13493
 #, gcc-internal-format
 msgid "!$OMP DECLARE SIMD should refer to containing procedure %qs at %L"
-msgstr ""
+msgstr "`!$OMP DECLARE SIMD` 应该引用包含的程序 `%qs` 在 `%L` 处，杂鱼，这都不懂吗？"
 
 #: fortran/openmp.cc:13535
 #, gcc-internal-format
 msgid ""
 "For range-based %<adjust_args%>, a constant positive scalar integer "
 "expression is required at %L"
-msgstr ""
+msgstr "对于基于范围的 %<adjust_args%>>，需要一个常量正的标量整数表达式 i 啦"
 
 #: fortran/openmp.cc:13575
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variable other than OMP_PRIV or OMP_ORIG used in INITIALIZER clause of !$OMP"
 " DECLARE REDUCTION at %L"
-msgstr ""
+msgstr "除了 OMP_PRIV 或 OMP_ORIG 的变量，竟然在 !$OMP DEC 的初始化部分被使用了呢，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:13583
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variable other than OMP_OUT or OMP_IN used in combiner of !$OMP DECLARE "
 "REDUCTION at %L"
-msgstr ""
+msgstr "除了 OMP_OUT 或 OMP_IN 的变量被用在了 !$OMP DECLARE REDUCTIO 的组合操作里呢，杂鱼。"
 
 #: fortran/openmp.cc:13612
 #, gcc-internal-format, gfc-internal-format
 msgid "Invalid operator for !$OMP DECLARE REDUCTION %s at %L"
-msgstr ""
+msgstr "对于 !$OMP DECLARE REDUCTION %s 在 %L的操作，这个运算符是无效的啦，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:13634
 #, gcc-internal-format, gfc-internal-format
 msgid "CHARACTER length in !$OMP DECLARE REDUCTION %s not constant at %L"
-msgstr ""
+msgstr "在 !$OMP DECLARE REDUCTION %s 中，字符长度不是常量，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:13650
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Subroutine call with alternate returns in combiner of !$OMP DECLARE "
 "REDUCTION at %L"
-msgstr ""
+msgstr "子程序调用中存在不同的返回值，在 !$OMP DECLARE REDUCTION 组合中，在的地方错了呢，杂鱼"
 
 #: fortran/openmp.cc:13665
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Subroutine call with alternate returns in INITIALIZER clause of !$OMP "
 "DECLARE REDUCTION at %L"
-msgstr ""
+msgstr "这个是关于Subroutine调用以及在$OMP DECLARE RE的INITIALIZER子句里的返回值的，杂鱼。这都不懂吗？"
 
 #: fortran/openmp.cc:13675
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "One of actual subroutine arguments in INITIALIZER clause of !$OMP DECLARE "
 "REDUCTION must be OMP_PRIV at %L"
-msgstr ""
+msgstr "在`!$OMP DECLARE REDUCT`的初始化子句中，其中一个实际的子程序参数出现了问题呢，杂鱼。"
 
 #: fortran/openmp.cc:13683
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Missing INITIALIZER clause for !$OMP DECLARE REDUCTION of derived type "
 "without default initializer at %L"
-msgstr ""
+msgstr "缺少了 !$OMP DECLARE REDUCTION 的初始化子句，而且没有 d 呀，杂鱼。"
 
 #: fortran/options.cc:520
 #, gcc-internal-format
 msgid "-ffrontend-optimize required for -fexternal-blas64"
-msgstr ""
+msgstr "-fexternal-blas64 需要 -ffrontend-optimize 才能使用哦，杂鱼。"
 
 #: fortran/options.cc:542
 #, gcc-internal-format, gfc-internal-format
@@ -39255,7 +38848,7 @@ msgid ""
 "%qs directive at %L must either have a variable argument or, if associated "
 "with an ALLOCATE stmt, must be preceded by an executable statement or OpenMP"
 " construct"
-msgstr ""
+msgstr "%qs 指令在 %L 处，要么必须有变量参数，要么如果与……"
 
 #: fortran/parse.cc:843
 #, gcc-internal-format
@@ -39263,7 +38856,7 @@ msgid ""
 "Structure-component expression at %L in %qs directive not permitted in "
 "declarative directive; as directive associated with an ALLOCATE stmt it must"
 " be preceded by an executable statement or OpenMP construct"
-msgstr ""
+msgstr "在 %qs 的指令中，%L 的结构体分量表达式是不被允许的哦，杂鱼。真是拿你没办法呢。"
 
 #: fortran/parse.cc:869
 #, gcc-internal-format
@@ -39271,7 +38864,7 @@ msgid ""
 "%qs directive at %L associated with an ALLOCATE stmt must be preceded by an "
 "executable statement or OpenMP construct; note the variables in the list all"
 " have the allocatable or pointer attribute"
-msgstr ""
+msgstr "在与 `ALLOCATE` 语句相关的 `%L` 处的 `%qs` 指令前面，必须有一个 `exec` 才能跟着哦，杂鱼。这都不懂吗？"
 
 #: fortran/parse.cc:1340
 #, gcc-internal-format, gfc-internal-format
@@ -39283,7 +38876,7 @@ msgstr "%C处的 OpenMP 指示无法分类啦！长点心吧喂！！！"
 msgid ""
 "OpenMP ERROR directive at %L with %<at(execution)%> clause in a PURE "
 "procedure"
-msgstr ""
+msgstr "OpenMP 指令在 %L 处，使用了 %<at(execution)%> 子句，这在纯粹的子程序里可不行呢，杂鱼"
 
 #: fortran/parse.cc:1498
 #, gcc-internal-format, gfc-internal-format
@@ -39358,7 +38951,7 @@ msgstr "%C处已在一个 CONTAINS 块内部 "
 #: fortran/parse.cc:3797
 #, gcc-internal-format, gfc-internal-format
 msgid "failed to create map component '%s'"
-msgstr ""
+msgstr "没能创建映射组件 '%s' 啦，杂鱼。"
 
 #: fortran/parse.cc:3830
 #, gcc-internal-format, gfc-internal-format
@@ -39368,7 +38961,7 @@ msgstr "类‘%s’是不是被你这个变态藏起来了"
 #: fortran/parse.cc:3989
 #, gcc-internal-format, gfc-internal-format
 msgid "The type parameter at %C must come before a PRIVATE statement"
-msgstr ""
+msgstr "类型参数在%C之前必须跟在PRIVATE声明前面呢，杂鱼。"
 
 #: fortran/parse.cc:4000
 #, gcc-internal-format, gfc-internal-format
@@ -39485,7 +39078,7 @@ msgstr "%L处有名的块 DO 需要匹配的 ENDDO 名啦"
 #: fortran/parse.cc:6177
 #, gcc-internal-format, gfc-internal-format
 msgid "%s statements at %L and %L have both no list item but only one may"
-msgstr ""
+msgstr "%s 语句在 %L 和 %L 处都有没有列表项，但只有一个可以呢"
 
 #: fortran/parse.cc:6436
 #, gcc-internal-format, gfc-internal-format
@@ -39497,21 +39090,21 @@ msgstr "%C处 !$omp critical 和 !$omp end critical 后的名字不匹配喵！�
 msgid ""
 "%<OMP DISPATCH%> directive must be followed by a procedure call with "
 "optional assignment at %C"
-msgstr ""
+msgstr "`%<OMP DISPATCH%>` 这个指令可不能光放着不管哦，杂鱼。它后面必须跟着一个过程调用，还得带上可选的 as 呢。这都不懂吗？"
 
 #: fortran/parse.cc:6649
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variants in a metadirective at %L have different associations; consider "
 "using a BLOCK construct or BEGIN/END METADIRECTIVE"
-msgstr ""
+msgstr "在 %L 处的元指令中的变体有不同的关联呢，杂鱼。考虑使用一个嘛。"
 
 #: fortran/parse.cc:6654
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variants in a metadirective at %L have different associations; consider "
 "using a BLOCK construct"
-msgstr ""
+msgstr "在%L处的元指令中的变体有不同的关联呢，杂鱼。考虑使用一个吧。"
 
 #: fortran/parse.cc:6705
 #, gcc-internal-format, gfc-internal-format
@@ -39521,22 +39114,22 @@ msgstr "%2$C处的 %1$s 语句不能终止一个不成块的 DO 循环喵！笨�
 #: fortran/parse.cc:6839
 #, gcc-internal-format
 msgid "%<GCC unroll%> directive not at the start of a loop at %C"
-msgstr ""
+msgstr "`%<GCC unroll%>` 指令不在循环的开头，杂鱼，这都不懂吗？"
 
 #: fortran/parse.cc:6842
 #, gcc-internal-format
 msgid "%<GCC ivdep%> directive not at the start of a loop at %C"
-msgstr ""
+msgstr "`%<GCC ivdep%>` 指令不在循环的开头，杂鱼，这都不懂吗？"
 
 #: fortran/parse.cc:6845
 #, gcc-internal-format
 msgid "%<GCC vector%> directive not at the start of a loop at %C"
-msgstr ""
+msgstr "`%<GCC vector%> 指令不在循环的开头，在 %C` 呀。这都不懂吗？"
 
 #: fortran/parse.cc:6848
 #, gcc-internal-format
 msgid "%<GCC novector%> directive not at the start of a loop at %C"
-msgstr ""
+msgstr "%<GCC novector%> 指令没有放在循环的开头，在 %C这都不懂啦？"
 
 #: fortran/parse.cc:7024
 #, gcc-internal-format, gfc-internal-format
@@ -39579,7 +39172,7 @@ msgstr "%C处缺少种别参数呢笨蛋！"
 #: fortran/primary.cc:136
 #, gcc-internal-format
 msgid "gfc_check_digit(): bad radix"
-msgstr ""
+msgstr "`gfc_check_digit()` 函数里，基数不对啦，杂鱼。"
 
 #: fortran/primary.cc:317
 #, gcc-internal-format, gfc-internal-format
@@ -39634,12 +39227,12 @@ msgstr "%C处实常数下溢其种别吧"
 #: fortran/primary.cc:858
 #, gcc-internal-format
 msgid "gfc_range_check() returned bad value"
-msgstr ""
+msgstr "`gfc_range_check()` 返回了错误的值啦，杂鱼。"
 
 #: fortran/primary.cc:906
 #, gcc-internal-format
 msgid "Non-significant digits in %qs number at %C, maybe incorrect KIND"
-msgstr ""
+msgstr "在 %C 的 %qs 数字里有非有效数字，也许你的 KIND 不对呢，杂鱼。"
 
 #: fortran/primary.cc:998
 #, gcc-internal-format, gfc-internal-format
@@ -39659,7 +39252,7 @@ msgstr "开始于 %C 的未终结的字符常量喵~"
 #: fortran/primary.cc:1262
 #, gcc-internal-format
 msgid "match_string_constant(): Delimiter not found"
-msgstr ""
+msgstr "`match_string_constant()`: 找不到分隔符啦，杂鱼。"
 
 #: fortran/primary.cc:1387
 #, gcc-internal-format, gfc-internal-format
@@ -39684,7 +39277,7 @@ msgstr "%C处标量 PARAMETER 要求复数常量哦"
 #: fortran/primary.cc:1478
 #, gcc-internal-format
 msgid "gfc_match_sym_complex_part(): Bad type"
-msgstr ""
+msgstr "`gfc_match_sym_complex_part()`：类型不对啦，杂鱼。`` 也没什么好说的了哦。"
 
 #: fortran/primary.cc:1485
 #, gcc-internal-format, gfc-internal-format
@@ -39724,12 +39317,12 @@ msgstr "%C处需要结构组件名哦"
 #: fortran/primary.cc:2600 fortran/primary.cc:2791
 #, gcc-internal-format, gfc-internal-format
 msgid "RE or IM part_ref at %C"
-msgstr ""
+msgstr "RE 或 IM 在 %C中找不到引用，杂鱼。这都不懂吗。"
 
 #: fortran/primary.cc:2652 fortran/primary.cc:2796
 #, gcc-internal-format, gfc-internal-format
 msgid "The RE or IM part_ref at %C must be applied to a COMPLEX expression"
-msgstr ""
+msgstr "这个RE或IM的part_ref在%C处必须应用于一个复杂表达式啦，杂鱼。"
 
 #: fortran/primary.cc:2718
 #, gcc-internal-format, gfc-internal-format
@@ -39741,12 +39334,12 @@ msgstr "%C处需要实参列表呢"
 msgid ""
 "R901: A type parameter ref is not a designator and cannot be followed by the"
 " type inquiry ref at %C"
-msgstr ""
+msgstr "R901：类型参数引用既不是设计符，也不能后面跟着类型，这都不懂吗？"
 
 #: fortran/primary.cc:2747
 #, gcc-internal-format
 msgid "%qs at %C is not an inquiry reference to an intrinsic type component"
-msgstr ""
+msgstr "%qs 在 %C 处不是对内在类型组件的查询引用哦，杂鱼。"
 
 #: fortran/primary.cc:3008
 #, gcc-internal-format
@@ -39756,7 +39349,7 @@ msgstr "gfc_variable_attr()︰表达式不是一个变量喵？！你是不是�
 #: fortran/primary.cc:3884
 #, gcc-internal-format, gfc-internal-format
 msgid "%%LOC() as an rvalue at %C"
-msgstr ""
+msgstr "这个是关于`%%LOC()`作为rvalue在`%C`这方面的提示啦，杂鱼。这都不懂吗？"
 
 #: fortran/primary.cc:3974 fortran/primary.cc:4489
 #, gcc-internal-format, gfc-internal-format
@@ -39767,7 +39360,7 @@ msgstr "%C处的符号不适用于表达式呢笨蛋！"
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "The leftmost part-ref in a data-ref cannot be a function reference at %C"
-msgstr ""
+msgstr "在 data-ref 里的最左边的 part-ref，可不能是函数引用哦，杂鱼。"
 
 #: fortran/primary.cc:4612
 #, gcc-internal-format, gfc-internal-format
@@ -39782,19 +39375,19 @@ msgstr "%2$L处函数‘%1$s’有不匹配的数组规格说明喵～再检查�
 #: fortran/resolve.cc:1013
 #, gcc-internal-format
 msgid "%qs at %L cannot appear in COMMON [F2008:C5100]"
-msgstr ""
+msgstr "%qs 在 %L 中不能出现在 COMMON 中 [F2008:C5100]"
 
 #: fortran/resolve.cc:1082
 #, gcc-internal-format
 msgid ""
 "In Fortran 2003 COMMON %qs block at %L is a global identifier and must thus "
 "have the same binding name as the same-named COMMON block at %L: %s vs %s"
-msgstr ""
+msgstr "在Fortran 2003中，COMMON %qs 块在 %L 处是一个全局标识符，因此它必须有…… 杂鱼。"
 
 #: fortran/resolve.cc:1231
 #, gcc-internal-format
 msgid "The KIND parameter %qs in the PDT constructor at %C has no value"
-msgstr ""
+msgstr "`PDT构造函数在%C处，那个KIND参数%qs就没有值啦`"
 
 #: fortran/resolve.cc:2054 fortran/resolve.cc:12104 fortran/resolve.cc:14373
 #, gcc-internal-format, gfc-internal-format
@@ -39826,45 +39419,45 @@ msgstr "不允许按位置传递%L处的内部过程喵！笨蛋！"
 msgid ""
 "Procedure %qs at %L used as actual argument but does neither have an "
 "explicit interface nor the EXTERNAL attribute"
-msgstr ""
+msgstr "这个过程 %qs 在 %L 被用作实际的参数了，但它既没有显式的输入呢"
 
 #: fortran/resolve.cc:3115
 #, gcc-internal-format
 msgid ""
 "Missing explicit declaration with EXTERNAL attribute for symbol %qs at %L"
-msgstr ""
+msgstr "符号 %qs 在 %L 处，缺少带有 EXTERNAL 属性的显式声明呀，杂鱼。"
 
 #: fortran/resolve.cc:3431
 #, gcc-internal-format
 msgid ""
 "ABSTRACT INTERFACE %qs at %L must not have an assumed character length "
 "result (F2008: C418)"
-msgstr ""
+msgstr "ABSTRACT INTERFACE %qs 在 %L 处，不应该有假设的字符长度结果啦 (F) 真是拿你没办法呢"
 
 #: fortran/resolve.cc:3548
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "A BOZ literal constant at %L cannot appear as an actual argument in a "
 "function reference"
-msgstr ""
+msgstr "一个BOZ字面常量在函数r中不能作为实际的参数出现啦，杂鱼。"
 
 #: fortran/resolve.cc:3983
 #, gcc-internal-format
 msgid ""
 "F2018: C8102 %qs at %L is host associated but does not appear in an IMPORT "
 "or IMPORT, ONLY list"
-msgstr ""
+msgstr "F2018: C8102 %qs 在 %L 是主机关联的，但是没有出现在 IMPORT 或 IM 里呢"
 
 #: fortran/resolve.cc:3990
 #, gcc-internal-format
 msgid ""
 "F2018: C8102 %qs at %L is host associated in a scope that has IMPORT, NONE"
-msgstr ""
+msgstr "F2018: C8102 %qs 在 %L 处是主机关联的，在一个包含 IMPORT, NONE\" 消息的作用域中。这都不懂吗，杂鱼"
 
 #: fortran/resolve.cc:4223
 #, gcc-internal-format, gfc-internal-format
 msgid "Different argument lists in external dummy subroutine %s at %L and %L"
-msgstr ""
+msgstr "外部虚拟子程序 %s 在 %L 和 %L 里的参数列表不一样啦，这都不懂吗"
 
 #: fortran/resolve.cc:4303
 #, gcc-internal-format, gfc-internal-format
@@ -39874,7 +39467,7 @@ msgstr "%L和%L处的操作数外形不相容喵~"
 #: fortran/resolve.cc:4586
 #, gcc-internal-format
 msgid "Operands at %L and %L cannot appear as operands of binary operator %qs"
-msgstr ""
+msgstr "在%L和%L处的操作数不能作为二元运算符%qs的被操作数，杂鱼。"
 
 #: fortran/resolve.cc:4760
 #, gcc-internal-format, gfc-internal-format
@@ -39886,20 +39479,20 @@ msgstr "%L处复数不能比较大小喵！笨蛋！"
 msgid ""
 "BOZ literal constant near %L cannot appear as an operand of a relational "
 "operator"
-msgstr ""
+msgstr "BOZ 那个字面常量附近靠近 %L 不能作为关系运算符的操作数哦，杂鱼。这都不懂吗？"
 
 #: fortran/resolve.cc:5091
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Sorry, only integer, logical, real, complex and character types are "
 "currently supported for conditional expressions at %L"
-msgstr ""
+msgstr "抱歉啦，现在只支持整数、逻辑、实数、复数和字符类型而已哦，这都不懂吗？"
 
 #: fortran/resolve.cc:5100
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Sorry, array is currently unsupported for conditional expressions at %L"
-msgstr ""
+msgstr "哎呀，杂鱼，数组现在不支持条件表达式啦，在 %L那里。"
 
 #: fortran/resolve.cc:5270
 #, gcc-internal-format, gfc-internal-format
@@ -39974,12 +39567,12 @@ msgstr "%L处实参维数必须具有 INTEGER 类型喵？！你是不是又搞�
 #: fortran/resolve.cc:5597
 #, gcc-internal-format
 msgid "find_array_spec(): unused as(1)"
-msgstr ""
+msgstr "`find_array_spec()` 没被使用呢，还有这个 `as(1)` 也没用啦，消息字符串呢。"
 
 #: fortran/resolve.cc:5609
 #, gcc-internal-format
 msgid "find_array_spec(): unused as(2)"
-msgstr ""
+msgstr "`find_array_spec()` 那个 as(2) 没用呢，还有这个啦。这都不懂吗？"
 
 #: fortran/resolve.cc:5654
 #, gcc-internal-format, gfc-internal-format
@@ -39991,7 +39584,7 @@ msgstr "%L处数组索引是一个秩为 %d 的数组哦"
 msgid ""
 "TEAM argument at %L must be of TEAM_TYPE from the intrinsic module "
 "ISO_FORTRAN_ENV, found %s"
-msgstr ""
+msgstr "在%L的位置上，TEAM参数必须是来自内在模块ISO_FORTRAN_E的TEAM_TYPE哦，杂鱼。"
 
 #: fortran/resolve.cc:5827
 #, gcc-internal-format, gfc-internal-format
@@ -40041,7 +39634,7 @@ msgstr "%L处不能指定两个或以上秩不为零的部分引用呢笨蛋！"
 #: fortran/resolve.cc:6316
 #, gcc-internal-format
 msgid "gfc_expression_rank(): Two array specs"
-msgstr ""
+msgstr "gfc_expression_rank(): 两个数组规格呢，杂鱼"
 
 #. FIXME: It doesn't work reliably as inquiry_argument is not set
 #. for all inquiry functions in resolve_function; the reason is
@@ -40052,7 +39645,7 @@ msgstr ""
 msgid ""
 "Assumed-type variable %s at %L as actual argument to an inquiry function "
 "shall be the first argument"
-msgstr ""
+msgstr "假设类型变量 %s 在某个询问函数的实际参数 %L 中，应该……"
 
 #. FIXME: It doesn't work reliably as inquiry_argument is not set
 #. for all inquiry functions in resolve_function; the reason is
@@ -40063,14 +39656,14 @@ msgstr ""
 msgid ""
 "Assumed-rank variable %s at %L as actual argument to an inquiry function "
 "shall be the first argument"
-msgstr ""
+msgstr "假设的秩变量 %s 在 %L 作为查询函数的实际参数，将会是 b 啦"
 
 #: fortran/resolve.cc:7056
 #, gcc-internal-format
 msgid ""
 "%qs at %L is host associated at %L into a contained procedure with an "
 "internal procedure of the same name"
-msgstr ""
+msgstr "%qs 在 %L 处是与 %L 关联的，进入了一个带有内部 p 的包含过程"
 
 #: fortran/resolve.cc:7351
 #, gcc-internal-format, gfc-internal-format
@@ -40100,74 +39693,74 @@ msgstr "%L处的 DO 循环中的步进表达式不能为零喵？！你是不是
 #: fortran/resolve.cc:8405
 #, gcc-internal-format, gfc-internal-format
 msgid "DO loop at %L is undefined as it overflows"
-msgstr ""
+msgstr "循环在%L处是未定义的，因为它溢出了啦，杂鱼。"
 
 #: fortran/resolve.cc:8411
 #, gcc-internal-format, gfc-internal-format
 msgid "DO loop at %L is undefined as it underflows"
-msgstr ""
+msgstr "在 %L 处的循环是未定义的，因为它发生了下溢呢"
 
 #: fortran/resolve.cc:8471
 #, gcc-internal-format
 msgid ""
 "Variable %qs referenced in concurrent-header at %L must not appear in LOCAL "
 "locality-spec at %L"
-msgstr ""
+msgstr "变量 %qs 在 concurrent-header 中引用了 %L，这绝对不应该出现在 LOCAL loca 里呀，杂鱼。"
 
 #: fortran/resolve.cc:8520
 #, gcc-internal-format
 msgid ""
 "Variable %qs at %L not specified in a locality spec of DO CONCURRENT at %L "
 "but required due to DEFAULT (NONE)"
-msgstr ""
+msgstr "变量 %qs 在 %L 处，在 DO CONCURRENT 的局部范围指定 %L 中没有被指定，但却引用了 r 啦"
 
 #: fortran/resolve.cc:8604
 #, gcc-internal-format
 msgid "OPTIONAL attribute not permitted for %qs in %s locality-spec at %L"
-msgstr ""
+msgstr "对于 %qs 在 %s 局部规范中，不允许使用 OPTIONAL 属性哦，在 %L地方呢。"
 
 #: fortran/resolve.cc:8629
 #, gcc-internal-format
 msgid ""
 "Nonpointer polymorphic dummy argument not permitted for %qs in %s locality-"
 "spec at %L"
-msgstr ""
+msgstr "非指针多态的虚拟参数不允许用于 %qs 在 %s 局部性规范里啦，杂鱼。"
 
 #: fortran/resolve.cc:8640
 #, gcc-internal-format
 msgid "Finalizable type not permitted for %qs in %s locality-spec at %L"
-msgstr ""
+msgstr "最终化的类型不允许用于 %qs 在 %s 局部限定中，杂鱼。"
 
 #: fortran/resolve.cc:8645
 #, gcc-internal-format
 msgid ""
 "Type with ultimate allocatable component not permitted for %qs in %s "
 "locality-spec at %L"
-msgstr ""
+msgstr "用最终可分配组件的类型不允许在 %s 的局部空间中用于 %qs 啦，这都不懂吗。"
 
 #: fortran/resolve.cc:8653
 #, gcc-internal-format
 msgid ""
 "ASYNCHRONOUS attribute not permitted for %qs in REDUCE locality-spec at %L"
-msgstr ""
+msgstr "关于%qs在%L处的REDUCE局部规范中不允许异步属性，杂鱼。"
 
 #: fortran/resolve.cc:8657
 #, gcc-internal-format
 msgid "VOLATILE attribute not permitted for %qs in REDUCE locality-spec at %L"
-msgstr ""
+msgstr "`VOLATILE` 属性不允许用于 `%qs` 在 `%L` 的 `REDUCE locality-spec` 中呢，杂鱼。这都不懂吗？"
 
 #: fortran/resolve.cc:8738
 #, gcc-internal-format
 msgid ""
 "Expected INTEGER, REAL or CHARACTER type for %qs in REDUCE with MIN/MAX at "
 "%L, got %s"
-msgstr ""
+msgstr "在用 %L, g 的 REDUCE 操作中，%qs 期望的是 INTEGER, REAL 或 CHARACTER 类型呢，杂鱼。"
 
 #: fortran/resolve.cc:8747
 #, gcc-internal-format
 msgid ""
 "Expected integer type for %qs in REDUCE with IAND/IOR/IEOR at %L, got %s"
-msgstr ""
+msgstr "期望在 %L 处的 REDUCE 中，与 IAND/IOR/IEOR 操作中 %qs 的类型是整数，结果却是 %s 呢，杂鱼。"
 
 #: fortran/resolve.cc:8818
 #, gcc-internal-format, gfc-internal-format
@@ -40229,7 +39822,7 @@ msgid ""
 "The type parameter in ALLOCATE statement with type-spec shall be an asterisk"
 " as allocate object %qs at %L is a dummy argument with assumed type "
 "parameter"
-msgstr ""
+msgstr "ALLOCATE 语句中带有类型规范的类型参数，必须是星号作为……哦。"
 
 #: fortran/resolve.cc:9489 fortran/resolve.cc:9504
 #, gcc-internal-format, gfc-internal-format
@@ -40239,12 +39832,12 @@ msgstr "%L处的 ALLOCATE 语句中需要数组规格说明吧"
 #: fortran/resolve.cc:9537
 #, gcc-internal-format, gfc-internal-format
 msgid "Upper cobound is less than lower cobound at %L"
-msgstr ""
+msgstr "上界协变小于下界协变在 %L 处，真是的，杂鱼。"
 
 #: fortran/resolve.cc:9549
 #, gcc-internal-format, gfc-internal-format
 msgid "Upper cobound is less than lower cobound of 1 at %L"
-msgstr ""
+msgstr "上界相邻比下界相邻的 1 小，杂鱼。"
 
 #: fortran/resolve.cc:9560 fortran/resolve.cc:9588
 #, gcc-internal-format, gfc-internal-format
@@ -40343,17 +39936,17 @@ msgstr "%L处逻辑 SELECT CASE 块有多于两个的情况呢"
 msgid ""
 "(F202y)Missing or invalid bound in ASSOCIATE rank remapping of associate "
 "name %s at %L"
-msgstr ""
+msgstr "(F202y) 在关联名称"
 
 #: fortran/resolve.cc:10556
 #, gcc-internal-format, gfc-internal-format
 msgid "Associating selector-expression at %L yields a procedure"
-msgstr ""
+msgstr "在%L处关联选择器表达式会产生一个过程啦，杂鱼。"
 
 #: fortran/resolve.cc:10685
 #, gcc-internal-format, gfc-internal-format
 msgid "CLASS selector at %L needs a temporary which is not yet implemented"
-msgstr ""
+msgstr "类的选择器在 %L 处需要一个还没有实现的临时变量呢，杂鱼。"
 
 #: fortran/resolve.cc:11374
 #, gcc-internal-format, gfc-internal-format
@@ -40363,23 +39956,23 @@ msgstr "%L处 SELECT TYPE 语句中有双重的 CLASS IS 块喵~"
 #: fortran/resolve.cc:11507
 #, gcc-internal-format, gfc-internal-format
 msgid "RANK DEFAULT at %L is repeated at %L"
-msgstr ""
+msgstr "RANK DEFAULT 在 %L 处重复了，在 %L 处重复了 啦，杂鱼。"
 
 #: fortran/resolve.cc:11516
 #, gcc-internal-format, gfc-internal-format
 msgid "RANK (*) at %L is repeated at %L"
-msgstr ""
+msgstr "`RANK (*) 在 %L 处被重复了，在 %L 处重复了`"
 
 #: fortran/resolve.cc:11519
 #, gcc-internal-format, gfc-internal-format
 msgid "RANK (%i) at %L is repeated at %L"
-msgstr ""
+msgstr "RANK (%i) 在 %L 处重复了，重复在 %L 啦。"
 
 #: fortran/resolve.cc:11529
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "RANK (*) at %L cannot be used with the pointer or allocatable selector at %L"
-msgstr ""
+msgstr "`RANK` 在 `%L` 处不能与指针或可分配选择器在 `%L` 处一起使用哦，杂鱼。这都不懂吗。"
 
 #: fortran/resolve.cc:11742
 #, gcc-internal-format, gfc-internal-format
@@ -40451,7 +40044,7 @@ msgstr "%L处的 WHERE/ELSEWHERE 子句需要一个 LOGICAL 数组吧"
 #: fortran/resolve.cc:12957
 #, gcc-internal-format
 msgid "gfc_resolve_blocks(): Bad block type"
-msgstr ""
+msgstr "gfc_resolve_blocks(): 块类型不对啦，杂鱼。"
 
 #. F2008, C1283 (4).
 #: fortran/resolve.cc:13143
@@ -40461,19 +40054,19 @@ msgid ""
 "expr at %L of an intrinsic assignment statement in which the variable is of "
 "a derived type if the derived type has a pointer component at any level of "
 "component selection."
-msgstr ""
+msgstr "在纯子程序里，INTENT(IN) 的这个占位参数可不能被用作表达式哦，杂鱼。"
 
 #: fortran/resolve.cc:13187
 #, gcc-internal-format, gfc-internal-format
 msgid "Assignment to polymorphic coarray at %L is not permitted"
-msgstr ""
+msgstr "给多态的协数组在 %L 赋值是不被允许的啦，杂鱼。"
 
 #: fortran/resolve.cc:13603
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "TODO: type-bound defined assignment(s) at %L not done because multiple part "
 "array references would occur in intermediate expressions."
-msgstr ""
+msgstr "TODO：在%L处，类型绑定的定义赋值没有完成，因为涉及到多个数组部分啦。这都不懂吗？"
 
 #: fortran/resolve.cc:14261
 #, gcc-internal-format, gfc-internal-format
@@ -40489,7 +40082,7 @@ msgstr "%L处的 ASSIGN 语句需要一个默认标量 INTEGER 变量哦"
 #: fortran/resolve.cc:14494
 #, gcc-internal-format
 msgid "gfc_resolve_code(): No expression on DO WHILE"
-msgstr ""
+msgstr "gfc_resolve_code(): DO WHILE 没有表达式呢，杂鱼"
 
 #: fortran/resolve.cc:14499
 #, gcc-internal-format, gfc-internal-format
@@ -40512,35 +40105,35 @@ msgstr "%L处假定字符长度的实体必须是个虚参或是个 PARAMETER喵
 #: fortran/resolve.cc:15737
 #, gcc-internal-format
 msgid "Result variable %qs of pure function at %L is polymorphic allocatable"
-msgstr ""
+msgstr "结果变量 %qs 在 %L 的纯函数里，居然是多态可分配的啦，这都不懂吗"
 
 #: fortran/resolve.cc:15879
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Mismatch in ELEMENTAL attribute between MODULE PROCEDURE at %L and its "
 "interface in %s"
-msgstr ""
+msgstr "在 %L 的模块过程和它的接口的元素属性不匹配呢，杂鱼。"
 
 #: fortran/resolve.cc:15887
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Mismatch in PURE attribute between MODULE PROCEDURE at %L and its interface "
 "in %s"
-msgstr ""
+msgstr "模块过程在%L上的PURE属性和它的接口在%之间不匹配呢，杂鱼。"
 
 #: fortran/resolve.cc:15895
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Mismatch in RECURSIVE attribute between MODULE PROCEDURE at %L and its "
 "interface in %s"
-msgstr ""
+msgstr "这个模块过程的递归属性和它的接口不匹配呢，杂鱼。"
 
 #: fortran/resolve.cc:15904
 #, gcc-internal-format
 msgid ""
 "%s between the MODULE PROCEDURE declaration in MODULE %qs and the "
 "declaration at %L in (SUB)MODULE %qs"
-msgstr ""
+msgstr "在 MODULE %qs 的 MODULE PROCEDURE 声明和声明 at 之间的 %s 呢，杂鱼。"
 
 #: fortran/resolve.cc:16042
 #, gcc-internal-format, gfc-internal-format
@@ -40552,7 +40145,7 @@ msgstr "%L处的 FINAL 过程有且只有一个参数喵~"
 msgid ""
 "FINAL procedure at %L with assumed rank argument must be the only finalizer "
 "with the same kind/type (F2018: C790)"
-msgstr ""
+msgstr "在 %L 处的最终过程，带有假设的秩参数必须是唯一的最终化器哦，杂鱼。"
 
 #: fortran/resolve.cc:16076
 #, gcc-internal-format, gfc-internal-format
@@ -40584,7 +40177,7 @@ msgstr "%L处的非标量 FINAL 过程应当有假定外形的参数吧"
 msgid ""
 "All LEN type parameters of the passed dummy argument %qs of %qs at %L must "
 "be ASSUMED."
-msgstr ""
+msgstr "传入的那个虚拟参数 %qs 的所有 LEN 类型参数在 %L 处，都必须是 AS 啦，杂鱼。"
 
 #: fortran/resolve.cc:17412
 #, gcc-internal-format, gfc-internal-format
@@ -40598,12 +40191,12 @@ msgstr "%2$L处声明的有 SEQUENCE 类型的组件 %1$s 没有 SEQUENCE 属性
 msgid ""
 "Parameterized type %qs does not have a component corresponding to parameter "
 "%qs at %L"
-msgstr ""
+msgstr "参数化类型 %qs 没有与参数 %qs 对应的组件呢，杂鱼。"
 
 #: fortran/resolve.cc:17742
 #, gcc-internal-format, gfc-internal-format
 msgid "Failed to build PDT class component at %L"
-msgstr ""
+msgstr "在 %L处构建 PDT 类组件失败了呢，杂鱼。"
 
 #: fortran/resolve.cc:17946
 #, gcc-internal-format, gfc-internal-format
@@ -40615,28 +40208,28 @@ msgstr "%L处 PARAMETER 中派生类型不兼容喵～再检查一下吧！"
 msgid ""
 "The AUTOMATIC object %qs at %L must not have the SAVE attribute or be a "
 "variable declared in the main program, a module or a submodule(F08/C513)"
-msgstr ""
+msgstr "这个自动对象 %qs 在 %L 处，它不能有 SAVE 属性，也不能是变量哦，杂鱼。"
 
 #: fortran/resolve.cc:18046
 #, gcc-internal-format
 msgid ""
 "The object %qs at %L with ASSUMED type parameters must be a dummy or a "
 "SELECT TYPE selector(F08/4.2)"
-msgstr ""
+msgstr "对象 %qs 在 %L 处，带有假设的类型参数，必须是占位符或者 SELECT TY 啦。这都不懂吗。"
 
 #: fortran/resolve.cc:18105
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Sorry, allocatable/pointer components in polymorphic (CLASS) type coarrays "
 "at %L are unsupported"
-msgstr ""
+msgstr "抱歉啦，在多态的(CLASS)类型协数组里，可分配/指针组件在 %L 处啊。这都不懂？"
 
 #: fortran/resolve.cc:18118
 #, gcc-internal-format
 msgid ""
 "%<omp_all_memory%>, declared at %L, may only be used in the OpenMP DEPEND "
 "clause"
-msgstr ""
+msgstr "%<omp_all_memory%>，它只允许在 OpenMP DEPEND 子句里使用哦，杂鱼。"
 
 #: fortran/resolve.cc:18328
 #, gcc-internal-format, gfc-internal-format
@@ -40652,7 +40245,7 @@ msgstr "%L处假定外形的数组必须是一个虚参喵～再检查一下吧�
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Assumed-rank array at %L may not have the VALUE or CODIMENSION attribute"
-msgstr ""
+msgstr "在 %L 处的假设秩数组可能不具备 VALUE 或 CODIMENSION 属性哦，杂鱼。"
 
 #: fortran/resolve.cc:18363
 #, gcc-internal-format, gfc-internal-format
@@ -40663,21 +40256,21 @@ msgstr "%L处的符号不是一个 DUMMY 变量呢笨蛋！"
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variable %s at %L with NO_ARG_CHECK attribute shall be a dummy argument"
-msgstr ""
+msgstr "变量 %s 在 %L 处，带有 NO_ARG_CHECK 属性，应该被当作一个虚拟参数哦"
 
 #: fortran/resolve.cc:18424
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variable %s at %L with NO_ARG_CHECK attribute shall be of type TYPE(*) or of"
 " an numeric intrinsic type"
-msgstr ""
+msgstr "变量 %s 在 %L 处，带有 NO_ARG_CHECK 属性，必须是类型 TYPE(*) 或者一个……这都不懂吗？"
 
 #: fortran/resolve.cc:18448
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Variable %s at %L with NO_ARG_CHECK attribute shall either be a scalar or an"
 " assumed-size array"
-msgstr ""
+msgstr "变量 %s 在 %L 处，带有 NO_ARG_CHECK 属性，要么是标量，要么是数组啦，这都不懂吗？"
 
 #: fortran/resolve.cc:18869
 #, gcc-internal-format, gfc-internal-format
@@ -40687,14 +40280,14 @@ msgstr "%L处的线程私有变量未被保存呢"
 #: fortran/resolve.cc:18892
 #, gcc-internal-format
 msgid "!$OMP DECLARE TARGET variable %qs at %L isn't SAVEd"
-msgstr ""
+msgstr "`!$OMP DECLARE TARGET variable %qs at %L 没有被保存`"
 
 #: fortran/resolve.cc:19055
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "DATA object near %L has the pointer attribute and the corresponding DATA "
 "value is not a valid initial-data-target"
-msgstr ""
+msgstr "DATA对象在%L附近有指针属性和对应的DATA值i哦，这都不懂吗？"
 
 #: fortran/resolve.cc:19126
 #, gcc-internal-format, gfc-internal-format
@@ -40740,20 +40333,20 @@ msgstr "%L处 EQUIVALENCE 集中的对象必须都带有或者都不带有 PROTE
 msgid ""
 "Sequence %s with mixed components in EQUIVALENCE statement at %L with "
 "different type objects"
-msgstr ""
+msgstr "序列 %s 中包含了混合的组件在 EQUIVALENCE 语句中，在 %L 处有不同的内容呢。"
 
 #: fortran/resolve.cc:19883
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Non-default type object or sequence %s in EQUIVALENCE statement at %L with "
 "objects of different type"
-msgstr ""
+msgstr "在 EQUIVALENCE 语句中，使用了非默认类型的对象或序列 %s，位置在 %L，对象是 objec 啦。这都不懂吗？"
 
 #: fortran/resolve.cc:19893
 #, gcc-internal-format
 msgid ""
 "Non-CHARACTER object %qs in default CHARACTER EQUIVALENCE statement at %L"
-msgstr ""
+msgstr "%L\" msgst 中的默认字符等价声明里，出现了一个非 CHARACTER 对象，杂鱼。这都不懂吗。"
 
 #: fortran/resolve.cc:19940
 #, gcc-internal-format, gfc-internal-format
@@ -40795,7 +40388,7 @@ msgstr "%C处的 !$OMP 开始了一个注释行，因为它既不是由一个空
 #: fortran/scanner.cc:1009
 #, gcc-internal-format
 msgid "Ignoring %<!$omx%> vendor-extension sentinel at %C"
-msgstr ""
+msgstr "忽略了%<!$omx%>供应商扩展的哨兵啦，杂鱼。"
 
 #: fortran/scanner.cc:1321 fortran/scanner.cc:1524
 #, gcc-internal-format, gfc-internal-format
@@ -40810,12 +40403,12 @@ msgstr "%2$C处语句超出 %1$d 个续行的限制喵！笨蛋！"
 #: fortran/scanner.cc:1464 fortran/scanner.cc:1573
 #, gcc-internal-format, gfc-internal-format
 msgid "Wrong OpenACC continuation at %C: expected !$ACC, got !$OMP"
-msgstr ""
+msgstr "OpenACC 的续接错了呀，杂鱼。期望的是 !$ACC，结果你给的是 !$OMP，这都不懂吗？"
 
 #: fortran/scanner.cc:1466 fortran/scanner.cc:1575
 #, gcc-internal-format, gfc-internal-format
 msgid "Wrong OpenMP continuation at %C: expected !$OMP, got !$ACC"
-msgstr ""
+msgstr "OpenMP继续指令错误，在 %C 处：期望是 !$OMP，但你却给我的是 !$ACC 啦，这都不懂吗！"
 
 #: fortran/scanner.cc:1765
 #, gcc-internal-format, gfc-internal-format
@@ -40830,7 +40423,7 @@ msgstr "第 %d 列第 %d 行有不相容的制表符吧"
 #: fortran/scanner.cc:2552
 #, gcc-internal-format
 msgid "File %qs is being included recursively"
-msgstr ""
+msgstr "文件 %qs 正在被递归地包含呢，杂鱼。"
 
 #: fortran/scanner.cc:2564
 #, gcc-internal-format
@@ -40977,7 +40570,7 @@ msgstr "%L处 IBSET 的第二个和第三个参数的总和超过位大小喵~"
 #: fortran/simplify.cc:3868
 #, gcc-internal-format
 msgid "IBITS: Bad bit"
-msgstr ""
+msgstr "IBITS：坏的位，啦，这点小事都搞不定吗？"
 
 #: fortran/simplify.cc:3935
 #, gcc-internal-format, gfc-internal-format
@@ -41002,7 +40595,7 @@ msgstr "%L处 LOG 的复数实参不可为零喵！笨蛋！"
 #: fortran/simplify.cc:5303
 #, gcc-internal-format
 msgid "gfc_simplify_log: bad type"
-msgstr ""
+msgstr "`gfc_simplify_log` 报告了：类型不对啦，杂鱼。这都不懂吗。"
 
 #: fortran/simplify.cc:5320
 #, gcc-internal-format, gfc-internal-format
@@ -41012,12 +40605,12 @@ msgstr "%L处 LOG10 的实参不可以小于或等于零喵？！你是不是又
 #: fortran/simplify.cc:5752
 #, gcc-internal-format
 msgid "simplify_min_max(): Bad type in arglist"
-msgstr ""
+msgstr "`simplify_min_max()`：参数列表中类型不对啦，杂鱼。"
 
 #: fortran/simplify.cc:6742
 #, gcc-internal-format
 msgid "gfc_simplify_modulo(): Bad arguments"
-msgstr ""
+msgstr "`gfc_simplify_modulo()`：参数不对啦，杂鱼。"
 
 #: fortran/simplify.cc:6814
 #, gcc-internal-format, gfc-internal-format
@@ -41039,36 +40632,36 @@ msgstr "%L处内建 REPEAT 的 NCOPIES 实参太大啦"
 msgid ""
 "Evaluation of string longer than 2**28 at %L deferred to runtime, expect "
 "bugs"
-msgstr ""
+msgstr "字符串长度超过 2**28 的评估，被延迟到运行时，等着出现 bug 啦。这都不懂吗？"
 
 #: fortran/simplify.cc:7752
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "The SHAPE array for the RESHAPE intrinsic at %L has a negative value %d for "
 "dimension %d"
-msgstr ""
+msgstr "在 %L 处的 RESHAPE 内建函数对应的 SHAPE 数组，对于 dime 来说，有一个负值 %d 呢。这都不懂吗？"
 
 #: fortran/simplify.cc:7777
 #, gcc-internal-format, gfc-internal-format
 msgid "Shapes of ORDER at %L and SHAPE at %L are different"
-msgstr ""
+msgstr "ORDER在%L和SHAPE在%L的形状不一样啦，杂鱼。"
 
 #: fortran/simplify.cc:7791
 #, gcc-internal-format, gfc-internal-format
 msgid "Sizes of ORDER at %L and SHAPE at %L are different"
-msgstr ""
+msgstr "`ORDER`在`%L`处的尺寸和`SHAPE`在`%L`处的尺寸不一样哦，杂鱼。"
 
 #: fortran/simplify.cc:7806
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "Element with a value of %d in ORDER at %L must be in the range [1, ..., %d] "
 "for the RESHAPE intrinsic near %L"
-msgstr ""
+msgstr "在 %L 中的 ORDER 里，值为 %d 的元素必须在 [1, ..., %d] 的范围内，杂鱼。"
 
 #: fortran/simplify.cc:7817
 #, gcc-internal-format, gfc-internal-format
 msgid "ORDER at %L is not a permutation of the size of SHAPE at %L"
-msgstr ""
+msgstr "ORDER 在 %L 不是 SHAPE 在 %L 大小的排列哦，杂鱼。"
 
 #: fortran/simplify.cc:8000
 #, gcc-internal-format, gfc-internal-format
@@ -41078,12 +40671,12 @@ msgstr "%L处 SCALE 的结果上溢其种别喵~"
 #: fortran/simplify.cc:8678
 #, gcc-internal-format
 msgid "in gfc_simplify_sin(): Bad type"
-msgstr ""
+msgstr "在 gfc_simplify_sin() 里呢，类型不对啦，杂鱼。"
 
 #: fortran/simplify.cc:8816 fortran/simplify.cc:9099
 #, gcc-internal-format
 msgid "Failure getting length of a constant array."
-msgstr ""
+msgstr "获取常量数组的长度失败啦。这都不懂吗？"
 
 #: fortran/simplify.cc:8917
 #, gcc-internal-format, gfc-internal-format
@@ -41100,17 +40693,17 @@ msgstr "在 IMPLICIT NONE 后不能在%C处指定 IMPLICIT呢笨蛋！"
 msgid ""
 "Option %<-fallow-leading-underscore%> is for use only by gfortran "
 "developers, and should not be used for implicitly typed variables"
-msgstr ""
+msgstr "选项 %<-fallow-leading-underscore%> 是只供 gfortran 开发者使用的，还有什么的呢，杂鱼"
 
 #: fortran/symbol.cc:238
 #, gcc-internal-format
 msgid "gfc_get_default_type(): Bad symbol %qs"
-msgstr ""
+msgstr "gfc_get_default_type(): 符号 %qs不对啦，杂鱼"
 
 #: fortran/symbol.cc:308
 #, gcc-internal-format
 msgid "gfc_set_default_type(): symbol already has a type"
-msgstr ""
+msgstr "`gfc_set_default_type()`：这个符号已经有类型了呀，杂鱼。"
 
 #: fortran/symbol.cc:419 fortran/symbol.cc:946 fortran/symbol.cc:1860
 #, gcc-internal-format, gfc-internal-format
@@ -41198,7 +40791,7 @@ msgid ""
 "F2008: A pointer function assignment is ambiguous if it is the first "
 "executable statement after the specification block.  Please add any other "
 "kind of executable statement before it"
-msgstr ""
+msgstr "F2008: 如果这是第一个可执行的，指针函数赋值就会产生歧义啦，杂鱼。"
 
 #: fortran/symbol.cc:1935
 #, gcc-internal-format, gfc-internal-format
@@ -41239,7 +40832,7 @@ msgstr "%2$C处的标号 %1$d 已作为格式标号引用吧"
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "DO termination statement which is not END DO or CONTINUE with label %d at %C"
-msgstr ""
+msgstr "一个不是 END DO 或 CONTINUE 的 DO 终止语句，在 %C\" ms 处有一个标签 %d 啦，这都不懂吗"
 
 #: fortran/symbol.cc:3010
 #, gcc-internal-format, gfc-internal-format
@@ -41254,17 +40847,17 @@ msgstr "%2$C处的标号 %1$d 先前用作分支目标哦"
 #: fortran/symbol.cc:4739
 #, gcc-internal-format
 msgid "verify_bind_c_derived_type(): Given symbol is unexpectedly NULL"
-msgstr ""
+msgstr "`verify_bind_c_derived_type()`：给定的符号竟然是NULL，这可不寻常哦。"
 
 #: fortran/target-memory.cc:371
 #, gcc-internal-format
 msgid "Invalid expression in gfc_target_encode_expr."
-msgstr ""
+msgstr "在 gfc_target_encode_expr 中，这个表达式是无效的呢，杂鱼。"
 
 #: fortran/target-memory.cc:647
 #, gcc-internal-format
 msgid "Invalid expression in gfc_target_interpret_expr."
-msgstr ""
+msgstr "在 gfc_target_interpret_expr.里面，表达式不合法啦，杂鱼。这都不懂吗。"
 
 #: fortran/target-memory.cc:720
 #, gcc-internal-format, gfc-internal-format
@@ -41276,14 +40869,14 @@ msgstr "%L 处  EQUIVALENCE 中不等的初始值设定重叠哦"
 msgid ""
 "The structure constructor at %L has been finalized. This feature was removed"
 " by f08/0011. Use -std=f2018 or -std=gnu to eliminate the finalization."
-msgstr ""
+msgstr "在 %L 处的结构构造器已经确定了啦。这个特性已经被……（后面缺少内容）"
 
 #: fortran/trans-array.cc:4023
 #, gcc-internal-format
 msgid ""
 "Bounds checking of the elemental index at %L will cause two calls to %qs, "
 "which is not declared to be PURE or is not implicitly pure."
-msgstr ""
+msgstr "对%L处的元素索引进行边界检查，会引起两次对%qs的调用，这……"
 
 #: fortran/trans-array.cc:13291
 #, gcc-internal-format, gfc-internal-format
@@ -41295,7 +40888,7 @@ msgstr "走过错误的表达式类型(%d)啦！长点心吧喂！！！"
 msgid ""
 "Sorry, OMP GROUPPRIVATE not implemented, used by common block %</%s/%> "
 "declared at %L"
-msgstr ""
+msgstr "抱歉啦，OMP GROUPPRIVATE 没有实现，被 common block 使用了 %</%s/%> 声明哦，这都不懂吗？"
 
 #. Use 'else if' as groupprivate implies 'local'.
 #: fortran/trans-common.cc:498
@@ -41303,12 +40896,12 @@ msgstr ""
 msgid ""
 "Sorry, OMP DECLARE TARGET with LOCAL clause not implemented, used by common "
 "block %</%s/%> declared at %L"
-msgstr ""
+msgstr "抱歉啦，OMP DECLARE TARGET 连 LOCAL 子句都不支持，这是 common bloc 用的呢，这都不懂吗？"
 
 #: fortran/trans-common.cc:881
 #, gcc-internal-format
 msgid "element_number(): Bad dimension type"
-msgstr ""
+msgstr "element_number(): 维度类型不对啦，杂鱼"
 
 #: fortran/trans-common.cc:951
 #, gcc-internal-format, gfc-internal-format
@@ -41324,7 +40917,7 @@ msgstr "%L处的非法引用类型作为 EQUIVALENCE 对象喵~"
 #, gcc-internal-format
 msgid ""
 "Sorry, !$OMP allocate for COMMON block variable %qs at %L not supported"
-msgstr ""
+msgstr "抱歉啦，不支持在 %L 的 COMMON 块里为变量 %qs 分配资源哦。这都不懂吗？"
 
 #: fortran/trans-const.cc:347
 #, gcc-internal-format, gfc-internal-format
@@ -41348,12 +40941,12 @@ msgid ""
 "ALLOCATABLE array. If the variable is never accessed concurrently, this "
 "warning can be ignored, and the variable could also be declared with the "
 "SAVE attribute."
-msgstr ""
+msgstr "数组 %qs 在 %L 处的空间比由 %<-fmax-stack-var-size= 设置的限制要大，移动了哦"
 
 #: fortran/trans-decl.cc:1591
 #, gcc-internal-format
 msgid "Sorry, OMP GROUPPRIVATE not implemented, used by %qs declared at %L"
-msgstr ""
+msgstr "抱歉啦，OMP GROUPPRIVATE 没实现，被 %qs 在 %L 的里用到了哦。这都不懂？"
 
 #. Use 'else if' as groupprivate implies 'local'.
 #: fortran/trans-decl.cc:1595
@@ -41361,7 +40954,7 @@ msgstr ""
 msgid ""
 "Sorry, OMP DECLARE TARGET with LOCAL clause not implemented, used by %qs "
 "declared at %L"
-msgstr ""
+msgstr "抱歉啦，OMP DECLARE TARGET 中带有 LOCAL 子句的功能没实现哦，是 %qs declare 用到的呢。"
 
 #: fortran/trans-decl.cc:1943
 #, gcc-internal-format
@@ -41371,17 +40964,17 @@ msgstr "内建函数变量不是一个过程喵～再检查一下吧！"
 #: fortran/trans-decl.cc:7144
 #, gcc-internal-format, gfc-internal-format
 msgid "Sorry, !$ACC DECLARE at %L is not allowed in BLOCK construct"
-msgstr ""
+msgstr "抱歉，在BLOCK结构中不允许在%L处声明 !$ACC，杂鱼。这都不懂吗。"
 
 #: fortran/trans-expr.cc:1277
 #, gcc-internal-format, gfc-internal-format
 msgid "Cannot compute the length of the char array at %L."
-msgstr ""
+msgstr "无法计算 char 数组在 %L 处的长度呢，杂鱼。"
 
 #: fortran/trans-expr.cc:2106
 #, gcc-internal-format, gfc-internal-format
 msgid "Code for reallocating the allocatable variable at %L will be added"
-msgstr ""
+msgstr "要为在 %L 处重新分配可分配变量的代码添加消息字符串呢，杂鱼。"
 
 #: fortran/trans-expr.cc:4353
 #, gcc-internal-format
@@ -41397,7 +40990,7 @@ msgstr "%L处参数列表函数未知喵~"
 #, gcc-internal-format, gfc-internal-format
 msgid ""
 "If bounds remapping is specified at %L, the pointer target shall not be NULL"
-msgstr ""
+msgstr "如果 %L 指定了边界重映射呢，指针的目标可不能是 NULL 呀，杂鱼。"
 
 #: fortran/trans-io.cc:2554
 #, gcc-internal-format, gfc-internal-format
@@ -41407,36 +41000,36 @@ msgstr "错误的 IO 基类型(%d)喵～再检查一下吧！"
 #: fortran/trans-openmp.cc:964 fortran/trans-openmp.cc:1487
 #, gcc-internal-format
 msgid "Sorry, polymorphic arrays not yet supported for firstprivate"
-msgstr ""
+msgstr "抱歉啦，多态数组对于 firstprivate 还没有支持哦，杂鱼。"
 
 #: fortran/trans-openmp.cc:2187
 #, gcc-internal-format
 msgid ""
 "Mapping of unlimited polymorphic list item %qD is unspecified behavior and "
 "unsupported"
-msgstr ""
+msgstr "无限制多态列表项%qD的映射是未指定的行为和不确定的。这都不懂吗，杂鱼"
 
 #: fortran/trans-openmp.cc:2192
 #, gcc-internal-format
 msgid "Mapping of polymorphic list item %qD is unspecified behavior"
-msgstr ""
+msgstr "多态列表项%qD的映射是未指定行为啦，这都不懂吗？"
 
 #: fortran/trans-openmp.cc:5234
 #, gcc-internal-format
 msgid "%<uses_allocators%> clause with traits and memory spaces"
-msgstr ""
+msgstr "%<uses_allocators%> 附带特性的内存空间子句"
 
 #: fortran/trans-openmp.cc:6270
 #, gcc-internal-format
 msgid "%<!$OMP %s%> at %L requires %<-fopenmp-allocators%>"
-msgstr ""
+msgstr "%<!$OMP %s%> 在 %L 需要 %<-fopenmp-allocators%> 呢，杂鱼。"
 
 #: fortran/trans-openmp.cc:6273
 #, gcc-internal-format
 msgid ""
 "All files that might deallocate such a variable must be compiled with "
 "%<-fopenmp-allocators%>"
-msgstr ""
+msgstr "所有可能释放该变量的文件，都必须用 `%<-fopenmp` 来编译哦，杂鱼。这都不懂吗？"
 
 #: fortran/trans-openmp.cc:6276
 #, gcc-internal-format
@@ -41444,12 +41037,12 @@ msgid ""
 "This includes explicit DEALLOCATE, reallocation on intrinsic assignment, "
 "INTENT(OUT) for allocatable dummy arguments, and reallocation of allocatable"
 " components allocated with an OpenMP allocator"
-msgstr ""
+msgstr "这包括显式的 DEALLOCATE，内在赋值时的重新分配，还有 INTENT（呢），杂鱼。"
 
 #: fortran/trans-openmp.cc:6853 fortran/trans-openmp.cc:6873
 #, gcc-internal-format
 msgid "non-rectangular loop nest with non-constant step for %qs"
-msgstr ""
+msgstr "非矩形循环嵌套，步长不固定啦，杂鱼。"
 
 #: fortran/trans-openmp.cc:6875
 #, gcc-internal-format
@@ -41466,7 +41059,7 @@ msgstr "gfc_trans_omp_workshare()：错误的语句代码喵～再检查一下�
 msgid ""
 "%<append_args%> clause implies that %qs has %d dummy arguments of integer "
 "type with %<omp_interop_kind%> kind"
-msgstr ""
+msgstr "`%<append_args%>` 这个子句意味着 `%qs` 有 `%d` 个整数类型的虚拟参数哦，杂鱼。"
 
 #: fortran/trans-openmp.cc:10005
 #, gcc-internal-format
@@ -41474,38 +41067,38 @@ msgid ""
 "%qs at %L must be a nonpointer, nonallocatable scalar integer dummy argument"
 " of %<omp_interop_kind%> kind as it utilized with the %<append_args%> clause"
 " at %L"
-msgstr ""
+msgstr "%qs 在 %L 处必须是一个非指针、不可分配的标量整数虚拟参数，杂鱼。"
 
 #: fortran/trans-openmp.cc:10015
 #, gcc-internal-format
 msgid ""
 "%qs at %L with OPTIONAL attribute not support when utilized with the "
 "%<append_args%> clause at %L"
-msgstr ""
+msgstr "%qs 在 %L 上使用了 OPTIONAL 属性，当与 %<append_ar 结合使用时不支持哦，杂鱼。这都不懂吗？"
 
 #: fortran/trans-openmp.cc:10025
 #, gcc-internal-format
 msgid ""
 "%qs at %L has %d but requires %d %<omp_interop_kind%> kind dummy arguments "
 "as it is utilized with the %<append_args%> clause at %L"
-msgstr ""
+msgstr "在%L处有%qs，但它需要%d个%<omp_interop_kind%>类型的虚拟参数，杂鱼。"
 
 #: fortran/trans-openmp.cc:10040
 #, gcc-internal-format
 msgid ""
 "the %qs clause can only be specified if the %<dispatch%> selector of the "
 "construct selector set appears in the %<match%> clause at %L"
-msgstr ""
+msgstr "%qs 这个子句只有在 %<dispatch%> 选择器是构造函数的，才能被指定哦，杂鱼。"
 
 #: fortran/trans-openmp.cc:10190
 #, gcc-internal-format, gfc-internal-format
 msgid "Upper argument index smaller than lower one at %L"
-msgstr ""
+msgstr "上参数的索引比下参数小了，在 %L 处啦，杂鱼。"
 
 #: fortran/trans-openmp.cc:10237
 #, gcc-internal-format
 msgid "Consider using %<need_device_addr%> instead"
-msgstr ""
+msgstr "应该用 %<need_device_addr%> 代替呢，杂鱼。"
 
 #: fortran/trans-stmt.cc:646
 #, gcc-internal-format, gfc-internal-format
@@ -41515,17 +41108,17 @@ msgstr "%L 不带 * 虚参的替代返回吧"
 #: fortran/trans-types.cc:804
 #, gcc-internal-format
 msgid "-fexternal-blas64 requires a 64-bit system"
-msgstr ""
+msgstr "-fexternal-blas64 需要一个64位系统哦，杂鱼"
 
 #: fortran/trans-types.cc:912
 #, gcc-internal-format
 msgid "gfc_validate_kind(): Got bad type"
-msgstr ""
+msgstr "`gfc_validate_kind()` 告诉你“收到了错误的类型” 消息字符串啦。"
 
 #: fortran/trans-types.cc:916
 #, gcc-internal-format
 msgid "gfc_validate_kind(): Got bad kind"
-msgstr ""
+msgstr "gfc_validate_kind()：收到了错误的种类呢，杂鱼。"
 
 #: fortran/trans.cc:2689
 #, gcc-internal-format
@@ -41535,37 +41128,37 @@ msgstr "gfc_trans_code()：错误的语句代码喵～再检查一下吧！"
 #: go/gofrontend/embed.cc:278
 #, gcc-internal-format
 msgid "invalid embedcfg: not a JSON object"
-msgstr ""
+msgstr "embedcfg 无效：不是一个JSON对象啦，这都不懂吗"
 
 #: go/gofrontend/embed.cc:290
 #, gcc-internal-format
 msgid "invalid embedcfg: Patterns is not a JSON object"
-msgstr ""
+msgstr "embedcfg 无效啦：Patterns 根本就不是一个 JSON 对象哦"
 
 #: go/gofrontend/embed.cc:297
 #, gcc-internal-format
 msgid "invalid embedcfg: missing Files"
-msgstr ""
+msgstr "embedcfg 无效：缺少 Files"
 
 #: go/gofrontend/embed.cc:302
 #, gcc-internal-format
 msgid "invalid embedcfg: Files is not a JSON object"
-msgstr ""
+msgstr "embedcfg 无效：Files 不是一个JSON对象啦，杂鱼。"
 
 #: go/gofrontend/embed.cc:312
 #, gcc-internal-format
 msgid "invalid embedcfg: Patterns entry is not an array"
-msgstr ""
+msgstr "embedcfg 无效啦：Patterns 条目不是一个数组哦。这都不懂吗？"
 
 #: go/gofrontend/embed.cc:324
 #, gcc-internal-format
 msgid "invalid embedcfg: duplicate Patterns entry"
-msgstr ""
+msgstr "embedcfg 无效：Patterns 条目重复啦，这都不懂吗"
 
 #: go/gofrontend/embed.cc:354
 #, gcc-internal-format
 msgid "empty file"
-msgstr ""
+msgstr "空文件啦，这都不懂吗？"
 
 #: lto/lto-common.cc:2041
 #, gcc-internal-format
@@ -41610,12 +41203,12 @@ msgstr "无法读取 %s"
 #: lto/lto-dump.cc:256
 #, gcc-internal-format
 msgid "Level not found, use none, slim, blocks, vops."
-msgstr ""
+msgstr "找不到级别，请使用 none, slim, blocks, vops。"
 
 #: lto/lto-dump.cc:349 lto/lto-dump.cc:359
 #, gcc-internal-format
 msgid "Not configured with %<--enable-gather-detailed-mem-stats%>."
-msgstr ""
+msgstr "没有配置使用 %<--enable-gather-detailed-mem-stats%>。呢，杂鱼。这都不懂吗？"
 
 #: lto/lto-object.cc:104
 #, gcc-internal-format, gfc-internal-format
@@ -41635,7 +41228,7 @@ msgstr "close：%s"
 #: lto/lto-partition.cc:1233
 #, gcc-internal-format
 msgid "min partition size cannot be greater than max partition size"
-msgstr ""
+msgstr "最小分区大小不能大于最大分区大小哦，杂鱼。"
 
 #: lto/lto-symtab.cc:499
 #, gcc-internal-format
@@ -41665,7 +41258,7 @@ msgstr "%qD以前是...是在这里声明的："
 #: lto/lto-symtab.cc:767
 #, gcc-internal-format
 msgid "code may be misoptimized unless %<-fno-strict-aliasing%> is used"
-msgstr ""
+msgstr "代码可能被错误地优化了，除非你使用了%<-fno-strict-aliasing%>哦，杂鱼。"
 
 #: lto/lto-symtab.cc:853
 #, gcc-internal-format
@@ -41706,12 +41299,12 @@ msgstr "关闭 LTRANS 输出列表 %s：%m"
 #: m2/gm2spec.cc:363
 #, gcc-internal-format
 msgid "%qs is not a valid Modula-2 system library name or abbreviation"
-msgstr ""
+msgstr "%qs 不是一个有效的 Modula-2 系统库名称或缩写哦，杂鱼。"
 
 #: m2/gm2-gcc/m2builtins.cc:46
 #, gcc-internal-format
 msgid "%s:%d:assertion of condition %qs failed"
-msgstr ""
+msgstr "%s:%d:条件断言 %qs 失败\" 消息字符串"
 
 #: m2/gm2-gcc/m2convert.cc:111
 #, gcc-internal-format
@@ -41743,47 +41336,47 @@ msgstr "隐式常量转换溢...溢出来了!"
 #: m2/gm2-gcc/m2expr.cc:3692
 #, gcc-internal-format
 msgid "constant literal %qs exceeds internal ZTYPE range"
-msgstr ""
+msgstr "常量字面量 %qs 超出了内部 ZTYPE 范围啦，杂鱼。"
 
 #: m2/gm2-gcc/m2expr.cc:3612
 #, gcc-internal-format
 msgid "constant literal %qs contains %qc, expected 0 or 1"
-msgstr ""
+msgstr "常量字面量 %qs 包含了 %qc，期望是 0 或 1呀，这都不懂吗？"
 
 #: m2/gm2-gcc/m2expr.cc:3627 m2/gm2-gcc/m2expr.cc:3639
 #, gcc-internal-format
 msgid "constant literal %qs contains %qc, expected %qs"
-msgstr ""
+msgstr "常量字面量 %qs 包含了 %qc，但是期望的是 %qs呀"
 
 #: m2/gm2-gcc/m2expr.cc:3658
 #, gcc-internal-format
 msgid "constant literal %qs contains %qc, expected %qs or %qs"
-msgstr ""
+msgstr "常量字面量 %qs 包含了 %qc，期望是 %qs 或 %qs呢，杂鱼。这都不懂吗？"
 
 #: m2/gm2-gcc/m2type.cc:316
 #, gcc-internal-format
 msgid "low bound for the array is outside the ztype limits"
-msgstr ""
+msgstr "数组的下界超出了ztype的限制啦，杂鱼。"
 
 #: m2/gm2-gcc/m2type.cc:318
 #, gcc-internal-format
 msgid "high bound for the array is outside the ztype limits"
-msgstr ""
+msgstr "数组的上限超出了ztype的限制啦，这都不懂吗！"
 
 #: m2/gm2-gcc/m2type.cc:2471
 #, gcc-internal-format
 msgid "array element value must be the same type as its declaration"
-msgstr ""
+msgstr "数组元素的值必须和它的声明类型一样呀，杂鱼。"
 
 #: m2/gm2-gcc/m2type.cc:2534
 #, gcc-internal-format
 msgid "low bound for the subrange has overflowed"
-msgstr ""
+msgstr "子范围的下界溢出了呢，杂鱼。"
 
 #: m2/gm2-gcc/m2type.cc:2536
 #, gcc-internal-format
 msgid "high bound for the subrange has overflowed"
-msgstr ""
+msgstr "子范围的上限溢出了呢，杂鱼。"
 
 #: m2/gm2-gcc/m2type.cc:2837
 #, gcc-internal-format
@@ -41803,12 +41396,12 @@ msgstr "%<@end%>必须出现在 @implementation 上下文中啦"
 #: objc/objc-act.cc:870
 #, gcc-internal-format
 msgid "properties must be named"
-msgstr ""
+msgstr "属性必须命名呀，杂鱼。"
 
 #: objc/objc-act.cc:915
 #, gcc-internal-format
 msgid "multiple property %qE methods specified, the latest one will be used"
-msgstr ""
+msgstr "指定了多个属性方法，只会使用最新的那个啦"
 
 #: objc/objc-act.cc:968
 #, gcc-internal-format
@@ -41833,7 +41426,7 @@ msgstr "原先是在这里定义的："
 #, gcc-internal-format
 msgid ""
 "nullability specifier %qE cannot be applied to multi-level pointer type %qT"
-msgstr ""
+msgstr "空指针性限定符 %qE 不能应用于多级指针类型 %qT\" 消息啦，这都不懂吗？"
 
 #. We know that 'class_name' is an Objective-C class name as the
 #. parser won't call this function if it is not.  This is only a
@@ -42121,7 +41714,7 @@ msgstr "方法%<%c%E%>是不是被你这个变态藏起来了"
 msgid ""
 "(messages without a matching method signature will be assumed to return "
 "%<id%> and accept %<...%> as arguments)"
-msgstr ""
+msgstr "没有匹配的方法签名的消息，默认会返回 %<id%> a 啦"
 
 #: objc/objc-act.cc:5915
 #, gcc-internal-format
@@ -42408,7 +42001,7 @@ msgstr "未使用的名称 %qE，不要丢下人家啊呜呜呜～"
 #: rust/resolve/rust-late-name-resolver-2.0.cc:351
 #, gcc-internal-format, gfc-internal-format
 msgid "are you trying to break %s? how dare you?"
-msgstr ""
+msgstr "你这是想破坏 %s 吗？你这么做算什么呢"
 
 #, gcc-internal-format
 msgid "this warning should be skipped"
